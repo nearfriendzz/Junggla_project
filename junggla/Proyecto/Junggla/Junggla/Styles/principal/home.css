@@ -1,0 +1,295 @@
+﻿body {
+}
+
+#divInvitacion
+{
+  text-align:left; 
+}
+
+#divInvitacion ul li txtEMailInvitacion
+{
+      
+  font-size:20pt;
+    color:Aqua;
+}
+
+    
+#divInvitacion ul
+{
+    list-style:none;
+}
+    
+#divInvitacion ul li
+{
+      
+list-style:none;
+display:inline;
+color:#e9eced;
+}
+    
+#cabecera
+{
+background:#04506d;
+margin-bottom: 10px;
+overflow: hidden;
+height:75px;
+}
+    
+#logo
+{
+margin-top:25px;
+margin-left:40px;
+}
+       
+
+#tituloPrincipal
+{
+font-family: Gautami, Candara, Trebuchet MS,Helvetica;   
+color:#50add5;
+font-size:3em;   
+margin-top:60px;
+   
+}
+
+#titulodefinicion
+{
+    font-family:Gautami, Candara, Trebuchet MS,Helvetica ;
+    font-size:20pt;
+    color:#1083b4;
+    margin-top:100px;
+    font-weight:bold;
+    
+    }
+                         
+#nav
+{
+text-align:left;
+margin-TOP:20px;
+}
+
+#nav ul
+{
+text-align:left;
+padding-left:0px;
+}
+       
+#nav ul li
+{
+      
+list-style:none;
+display:inline;
+margin-left:1px;
+color:#e9eced;
+text-align:left;
+}
+  
+#nav ul li a
+{
+margin-left:15px;
+color:#e9eced;
+       
+}
+             
+.cajaTextoEmail
+{
+width:125px;
+height:20px;
+} 
+    
+.cajaTextoPassword
+{
+    
+width:125px;
+height:20px;
+} 
+    
+#btLogin
+{
+margin-left:5px;
+
+}
+        
+#divbotoLogin
+{
+position:absolute;
+margin-left:260px;
+top:24px;
+}
+
+#divpie
+{
+   position:absolute;
+    background-color:#c5d1d6;
+    top:700px;
+    height:100%;
+    width:100%;
+    }
+            
+      /*Gautami, Candara, Trebuchet MS,Helvetica*/      
+    #tituloSignificado
+    {
+    position:absolute;
+    color:#7aa1b2;
+    font-family:Gautami, Candara, Trebuchet MS,Helvetica;
+    font-size:12pt;
+    text-align:right;
+   
+    
+}
+
+#divicion
+{
+    position:absolute;
+    height:360px;
+    top:230px;
+    }
+    
+    #invitacion
+    {
+        position:absolute;
+        color:#64828e;
+        font-family:Gautami, Candara, Trebuchet MS,Helvetica;
+        font-size:10pt;
+        top:400px;
+        margin-left:250px;
+        
+        }
+        
+    #obtenerInvitacion
+    {
+        font-weight:bold;
+        margin-left:2px;
+        }
+        
+        
+        #divbotonEmpresa
+        {
+            position:absolute;
+            top:450px;
+            margin-left:320px;
+            }
+        
+         .botonInvitacion
+        {
+            cursor:pointer;
+            font-family: Gautami, Candara, Trebuchet MS,Helvetica;
+            font-size:12pt;
+            color:White;
+            font-weight:bold;
+            background-color:#04506d;
+            border:1px solid #;
+            border-radius:10px 10px 10px 10px;
+            -webkit-border-radius:10px 10px 10px 10px;
+            -o-border-radius:10px 10px 10px 10px;
+            -moz-border-radius:10px 10px 10px 10px;
+            Height:34px;
+             Width:145px;
+            }
+            
+            
+            
+        .botonEmpresa
+        {
+            cursor:pointer;
+            font-family: Gautami, Candara, Trebuchet MS,Helvetica;
+            font-size:10pt;
+            color:White;
+            background-color:#d78039;
+            width:120px;
+            height:30px;
+            border:1px solid #d78039;
+            border-radius:10px 10px 10px 10px;
+            -webkit-border-radius:10px 10px 10px 10px;
+            -o-border-radius:10px 10px 10px 10px;
+            -moz-border-radius:10px 10px 10px 10px;
+            
+            }
+            
+            #divAplicar
+            {
+                position:absolute;
+                top:233px;
+                margin-left:500px;
+                
+                }
+                
+            #divRecomendar
+            {
+                position:absolute;
+                top:304px;
+                margin-left:500px;
+                
+                }
+                
+                 #divSeguir
+            {
+                position:absolute;
+                top:370px;
+                margin-left:500px;
+                
+                }
+            #divOrganizar
+             {
+                position:absolute;
+                top:440px;
+                margin-left:500px;
+                
+                }
+                
+                #divMovil
+             {
+                position:absolute;
+                top:510px;
+                margin-left:500px;
+                
+                }
+            #TituloAplicar
+            {
+              
+                position:absolute;
+                font-weight:bold;
+                font-family:  Gautami, Candara, Trebuchet MS,Helvetica;
+                font-size:18pt;
+                color:#3c6d82;
+                left:60px;
+                top:0px;
+                width: 320px;
+                
+}
+            
+            #definicionAplicar
+            {
+                font-family:Gautami, Candara, Trebuchet MS,Helvetica;
+                font-size:8pt;
+                color:#64828e;
+                line-height:0px;
+               line-height: 1.0; font-size: 0.55em;
+              
+                }
+            
+input[placeholder], [placeholder], *[placeholder]
+    {
+       font-family:Gautami, Candara, Trebuchet MS,Helvetica;
+       font-size:1.0em;
+       
+    }
+    
+    #enlacespie{
+        
+        text-align:center;
+        
+        }
+    
+    #enlacespie a{
+        color:#64828e;
+        text-decoration:none;
+        
+        }
+        
+        #enlaceSiguenos
+        {
+            margin-top:10px;
+            color:#64828e;
+           text-decoration:none;
+            text-align:center;
+            }

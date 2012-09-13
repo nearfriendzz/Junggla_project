@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="73f9ebd5-1af9-4668-9315-aae8d404166f" name="AltaEmpresa" linkedPackageId="f4811d14-effe-48e5-8f05-acae86483188" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="fd2967d9-676c-4ffc-ab4f-43f5658b84ee">
+      <profileInstance Id="1dfdf3aa-b87f-4abe-b38c-d270c02a8e8e" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="8c0d0e58-5070-4aa6-a204-ef6e8e5ad6a0">
+      <profileInstance Id="073ca2aa-a724-42a9-854a-b5f35e47ecb3" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="de389d6a-e05f-497b-9045-71907e9f7f4a" name="Actor3" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d923fae0-abe8-4006-9d88-1876cba1f605" />
+        <targetEnds>
+          <association Id="470cbf20-8d39-4545-93b3-bcf642086fbb" isDerived="false" sourceEndRoleName="Actor3" targetEndRoleName="Enlace Registro" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="eaf254cc-d200-42b8-a241-f66e48c48fb1" LastKnownName="Enlace Registro" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0d75c35a-3402-44e0-87bf-e1f3ce547ea1" name="Actor3" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7657911a-812c-41ef-b4f5-aeebbc334a60" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4e89245d-84c8-4f10-acd3-f746f34a95be" name="Enlace Registro" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4ce2fad7-8896-401e-ae36-133b400d9ea4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="85f9ccb5-62eb-4d30-9054-b41ab2947046" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="eaf254cc-d200-42b8-a241-f66e48c48fb1" name="Enlace Registro" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5744882b-55fe-4b66-b3fc-4f6c20d5a1c4" />
+        <targetEnds>
+          <association Id="4e2be059-1a19-41fe-8f54-06452bc8ce6c" isDerived="false" sourceEndRoleName="Enlace Registro" targetEndRoleName="Formulario Cuenta empresa" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="27dd956c-72cc-4270-b892-befe1866f249" LastKnownName="Formulario Cuenta empresa" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ddb7ff34-ea3d-4086-8c95-e560ff4329de" name="Enlace Registro" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="221ad577-26cc-4d30-b5fd-da9f89c51063" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="199ba413-1ae6-45a8-88a8-50d0efd5cad3" name="Formulario Cuenta empresa" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ff7651ee-a249-4dd9-b561-6fd3f27dcca4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9034b687-4d63-4915-a9ec-90861b908c63" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="27dd956c-72cc-4270-b892-befe1866f249" name="Formulario Cuenta empresa" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="eca598c4-5dda-45e7-b300-5a05dbcd8e81" />
+        <targetEnds>
+          <association Id="eeabaae4-1fbe-4859-a3a1-4f6ad0228697" isDerived="false" sourceEndRoleName="Formulario Cuenta empresa" targetEndRoleName="Añadir resposable" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="2e2b2404-5356-4c04-944b-7dc88d4fe555" LastKnownName="Añadir resposable" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="03f6dbf8-38ec-4ecb-a255-283aed971add" name="Formulario Cuenta empresa" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="44bf2aee-ce61-4f50-997b-71bed94a6698" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e2a83d7f-235f-476a-99db-be55abc0971f" name="Añadir resposable" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5e8181b2-cdc5-428a-adc9-f7cc00749aac" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="19f52a82-8cdc-4b50-8c79-c84c12e0ad93" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="2e2b2404-5356-4c04-944b-7dc88d4fe555" name="Añadir resposable" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1dfd7a81-5fcb-4a5b-8fb0-6af7b2dd0525" />
+        <targetEnds>
+          <association Id="390a7578-85a0-4165-9884-db40a6a63ee4" isDerived="false" sourceEndRoleName="Añadir resposable" targetEndRoleName="Correo de confirmacion alta" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3c64e9a1-dad0-4421-bfd6-d93fa04e2296" LastKnownName="Correo de confirmacion alta" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fd54d21c-4c1b-4c57-9fa8-635fc611658b" name="Añadir resposable" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="833da4d8-cde1-4262-ba56-240aed3328ae" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="df727c80-23d8-46a6-9196-0d94375083be" name="Correo de confirmacion alta" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="da03d6c5-6766-4a5b-b1a6-c25b1b1ca6f9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1bd6aa76-f16c-48ef-8b7a-ffec99031ea9" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3c64e9a1-dad0-4421-bfd6-d93fa04e2296" name="Correo de confirmacion alta" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="81753246-12d7-4367-92f0-2225a676a326" />
+        <targetEnds>
+          <association Id="63d383da-7a6c-4cb4-92da-dfd26bed0e5f" isDerived="false" sourceEndRoleName="Correo de confirmacion alta" targetEndRoleName="inicio de sesion" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f9f1c1f6-f31f-4aee-bcc2-1f3ebdd9685e" LastKnownName="inicio de sesion" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3a18639d-6379-4aea-8bbe-9682298df282" name="Correo de confirmacion alta" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1ce82203-7de8-4d64-89be-edc3af576b74" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="95be8e97-7c64-4406-be05-9b62534407ae" name="inicio de sesion" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="767e956b-cd98-4779-a96a-6b183b17edd3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="277c24b4-bd29-427f-b93a-17671ba1d9a7" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="f9f1c1f6-f31f-4aee-bcc2-1f3ebdd9685e" name="inicio de sesion" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f7c9d338-212f-426e-9c55-25d3543faec1" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="f4811d14-effe-48e5-8f05-acae86483188" name="Modelo de Junggla">
+    <elementDefinition Id="a47be953-d4f5-419f-ad2f-fb087dc0d2a4" />
+  </package>
+</useCaseModelRoot>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:HLine" id="1" x="14" y="848" width="1145" measuredWidth="1145" measuredHeight="6"/>
+  <widgets xsi:type="model:LinkBar" id="2" x="813" y="863" text="Acerca de,Blog,API,Privacidad, Terminos, Ayuda" measuredWidth="336" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="54" height="23" text="Acerca de"/>
+    <items x="72" y="0" width="26" height="23" text="Blog"/>
+    <items x="116" y="0" width="20" height="23" text="API"/>
+    <items x="154" y="0" width="57" height="23" text="Privacidad"/>
+    <items x="229" y="0" width="52" height="23" text="Terminos"/>
+    <items x="299" y="0" width="36" height="23" text="Ayuda"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="3" x="14" y="76" width="1141" height="41" measuredWidth="1141" measuredHeight="41" background="#000000">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="4" x="456" y="116" width="133" height="28" measuredWidth="133" measuredHeight="28" src="../../logoblanco.png"/>
+  <widgets xsi:type="model:Label" id="5" x="380" y="85" text="Home" measuredWidth="39" measuredHeight="23" foreground="#f9cb9c">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="436" y="85" text="Busqueda" measuredWidth="59" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="512" y="85" text="Estadistica" measuredWidth="62" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="588" y="85" text="Colección" measuredWidth="58" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="920" y="85" text="Cuenta" measuredWidth="44" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="972" y="85" text="Salir" measuredWidth="29" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="11" x="14" y="116" width="1141" height="733" measuredWidth="1141" measuredHeight="733" background="#f3f3f3" foreground="#f3f3f3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="12" x="208" y="81" width="133" height="31" measuredWidth="133" measuredHeight="31" src="../../logoevenzon.png"/>
+  <widgets xsi:type="model:Image" id="22" x="256" y="192" width="137" height="52" measuredWidth="137" measuredHeight="52" src="../../Candidatos/img/google.jpg"/>
+  <widgets xsi:type="model:Tabs" id="59" x="687" y="222" text="Actividades Recientes,Perfil, Procesos" measuredWidth="250" measuredHeight="27" selection="1">
+    <items x="1" y="0" width="134" height="27" text="Actividades Recientes"/>
+    <items x="135" y="0" width="47" height="27" text="Perfil"/>
+    <items x="182" y="0" width="67" height="27" text="Procesos"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="60" x="256" y="248" width="681" height="552" measuredWidth="681" measuredHeight="552" foreground="#666666">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="61" x="302" y="291" width="128" text="Sobre la Empresa" measuredWidth="128" measuredHeight="25" foreground="#134f5c">
+    <font size="10" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="62" x="867" y="315" width="21" text="Edit" measuredWidth="21" measuredHeight="25" foreground="#3d85c6">
+    <font size="10" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="63" x="302" y="315" width="584" measuredWidth="584" measuredHeight="6" foreground="#999999"/>
+  <widgets xsi:type="model:HLine" id="64" x="302" y="509" width="584" measuredWidth="584" measuredHeight="6" foreground="#999999"/>
+  <widgets xsi:type="model:Label" id="65" x="305" y="485" width="125" text="Informacion Adicionar" measuredWidth="125" measuredHeight="25" foreground="#134f5c">
+    <font size="10" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="66" x="867" y="517" width="21" text="Edit" measuredWidth="21" measuredHeight="25" foreground="#3d85c6">
+    <font size="10" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="67" x="302" y="339" width="577" height="137" measuredWidth="577" measuredHeight="137" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="68" x="318" y="528" width="21" text="Pais" measuredWidth="21" measuredHeight="23" foreground="#0b5394">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="69" x="318" y="560" width="63" text="Provincia" measuredWidth="63" measuredHeight="23" foreground="#0b5394">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="70" x="318" y="590" width="46" text="Web" measuredWidth="46" measuredHeight="23" foreground="#0b5394">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="71" x="318" y="620" width="63" text="Telefono" measuredWidth="63" measuredHeight="23" foreground="#0b5394">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="72" x="318" y="656" width="86" text="Nº Empleados" measuredWidth="86" measuredHeight="23" foreground="#0b5394">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="73" x="318" y="686" width="112" text="Actividad Empresa" measuredWidth="112" measuredHeight="23" foreground="#0b5394">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="74" x="429" y="624" width="84" text="+34 911199701" measuredWidth="84" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="75" x="429" y="528" width="84" text="España" measuredWidth="84" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="76" x="429" y="560" width="52" text="Madrid" measuredWidth="52" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="77" x="429" y="590" width="84" text="No disponible" measuredWidth="84" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="78" x="429" y="656" width="84" text="100-500" measuredWidth="84" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="79" x="429" y="686" width="156" text="Actividades Informaticas" measuredWidth="156" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="24" y="24" width="1145" height="873" text="Browser&#xA;http://..." measuredWidth="1145" measuredHeight="873"/>
+  <widgets xsi:type="model:Rectangle" id="43" x="24" y="76" width="1145" height="77" measuredWidth="1145" measuredHeight="77" background="#6fa8dc" foreground="#6fa8dc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="44" x="24" y="784" width="1145" height="113" measuredWidth="1145" measuredHeight="113" background="#d0e0e3" foreground="#d0e0e3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="45" x="409" y="800" text="Acerca de,Blog,API,Contacto,Privacidad, Terminos, Ayuda" measuredWidth="405" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="54" height="23" text="Acerca de"/>
+    <items x="72" y="0" width="26" height="23" text="Blog"/>
+    <items x="116" y="0" width="20" height="23" text="API"/>
+    <items x="154" y="0" width="51" height="23" text="Contacto"/>
+    <items x="223" y="0" width="57" height="23" text="Privacidad"/>
+    <items x="298" y="0" width="52" height="23" text="Terminos"/>
+    <items x="368" y="0" width="36" height="23" text="Ayuda"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="47" x="939" y="102" measuredWidth="62" measuredHeight="25" src="../botonLogin.png"/>
+  <widgets xsi:type="model:TextField" id="48" x="704" y="103" width="110" text="Email" measuredWidth="110" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="49" x="823" y="103" width="110" text="Password" measuredWidth="110" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="50" x="704" y="126" text="Recordarme" measuredWidth="85" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="52" x="813" y="126" width="162" text="¿Has olvidado tu contraseña?" measuredWidth="162" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="53" x="584" y="305" height="336" measuredWidth="6" measuredHeight="336"/>
+  <widgets xsi:type="model:Image" id="54" x="436" y="545" measuredWidth="116" measuredHeight="24" src="../botoEmpresa.png"/>
+  <widgets xsi:type="model:Image" id="55" x="619" y="320" measuredWidth="46" measuredHeight="46" src="../loginAplicar.png"/>
+  <widgets xsi:type="model:Image" id="56" x="624" y="613" measuredWidth="33" measuredHeight="46" src="../loginMovil.png"/>
+  <widgets xsi:type="model:Image" id="57" x="619" y="534" measuredWidth="48" measuredHeight="45" src="../loginOrganizar.png"/>
+  <widgets xsi:type="model:Image" id="58" x="619" y="392" measuredWidth="47" measuredHeight="40" src="../loginRecomendar.png"/>
+  <widgets xsi:type="model:Image" id="59" x="619" y="459" measuredWidth="45" measuredHeight="45" src="../loginSeguir.png"/>
+  <widgets xsi:type="model:Label" id="60" x="409" y="369" text="¿Que es Evenzon?" measuredWidth="160" measuredHeight="33" foreground="#0b5394">
+    <font size="14" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="62" x="104" y="416" width="457" height="58" text="Evenzon es el medio social que permite conseguir&#xD;&#xA;empleos de la manera más rapida y divertida" measuredWidth="457" measuredHeight="58" textAlignment="Right" foreground="#3d85c6" dummyText="true">
+    <font size="12"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="63" x="372" y="473" text="¿Quieres una Invitacion?" measuredWidth="133" measuredHeight="23" foreground="#134f5c">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="64" x="504" y="473" text="Obtener" measuredWidth="48" measuredHeight="23" foreground="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="65" x="183" y="224" width="369" height="33" text="The Best way to discover a job" measuredWidth="369" measuredHeight="33" textAlignment="Right" foreground="#3d85c6" dummyText="true">
+    <font size="18"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="66" x="448" y="545" text="Registrar Empresa" measuredWidth="99" measuredHeight="23" foreground="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="67" x="672" y="305" text="Aplicar" measuredWidth="67" measuredHeight="33" foreground="#134f5c">
+    <font size="14" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="68" x="672" y="384" text="Recomendar" measuredWidth="117" measuredHeight="33" foreground="#134f5c">
+    <font size="14" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="69" x="672" y="450" text="Seguir" measuredWidth="63" measuredHeight="33" foreground="#134f5c">
+    <font size="14" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="71" x="672" y="602" text="Movil" measuredWidth="55" measuredHeight="33" foreground="#134f5c">
+    <font size="14" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="70" x="672" y="522" text="Organizar" measuredWidth="93" measuredHeight="33" foreground="#134f5c">
+    <font size="14" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="73" x="672" y="337" width="457" height="41" text="Encuentra y Aplica en las mejores &#xD;&#xA;ofertas de empleo en todo el mundo." measuredWidth="457" measuredHeight="41" foreground="#45818e" dummyText="true">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="74" x="672" y="410" width="457" height="41" text="Recomienda y Comparte con tus&#xD;&#xA;amigos las ofertas más interesantes." measuredWidth="457" measuredHeight="41" foreground="#45818e" dummyText="true">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="76" x="672" y="482" width="457" height="41" text="Se el primero en enterarte &#xD;&#xA;de las oportunidades de las empresas." measuredWidth="457" measuredHeight="41" foreground="#45818e" dummyText="true">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="77" x="672" y="554" width="457" height="41" text="Gestiona  y Organiza tus entrevistas,  &#xD;&#xA;enterate de los procesos via estadisticas." measuredWidth="457" measuredHeight="41" foreground="#45818e" dummyText="true">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="78" x="672" y="634" width="457" height="41" text="Localiza todas las oportunidades &#xD;&#xA;disponible a tu alrededor." measuredWidth="457" measuredHeight="41" foreground="#45818e" dummyText="true">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="79" x="40" y="792" text="© Evenzon 2011" measuredWidth="90" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="80" x="513" y="848" text="Siguenos" measuredWidth="53" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="81" x="571" y="848" text="Facebook @twitter" measuredWidth="102" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="84" x="832" y="652" text="Descargar" measuredWidth="57" measuredHeight="23" foreground="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="87" x="241" y="95" width="169" measuredWidth="169" measuredHeight="39" src="../logoevenzon.png"/>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

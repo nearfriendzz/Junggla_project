@@ -1,0 +1,783 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="a47be953-d4f5-419f-ad2f-fb087dc0d2a4"
+  name="Modelo de Junggla" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="83e6f7af-72d5-448d-a408-4153c5b90ae9"
+        name="Actor1"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="d391ee9e-e5bc-4193-b911-0f1d3fffdc0f">
+            <useCaseMoniker
+              Id="4bd08787-6b50-4079-91a6-96d14673f024"
+              LastKnownName="Invitacion"
+              LastKnownLocation="Modelo de Junggla.uml" />
+          </dependency>
+        </suppliersInternal>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="6b47f307-4414-40e0-9233-7510a3263ae0"
+        name="Subsystem1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4bd08787-6b50-4079-91a6-96d14673f024"
+        name="Invitacion"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="7e8bfa78-9cf0-4ffe-81e9-5eca587cd658">
+            <useCaseMoniker
+              Id="11301db5-a3ba-43e1-9889-b689e8f9c93a"
+              LastKnownName="Confirmar invitaciones"
+              LastKnownLocation="Modelo de Junggla.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="11301db5-a3ba-43e1-9889-b689e8f9c93a"
+        name="Confirmar invitaciones"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="4ed4efde-9428-4a02-807d-98474ee2f375">
+            <useCaseMoniker
+              Id="4406eeaf-70ea-4854-9fb3-19b4f06ba241"
+              LastKnownName="Enviar Invitaciones"
+              LastKnownLocation="Modelo de Junggla.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4406eeaf-70ea-4854-9fb3-19b4f06ba241"
+        name="Enviar Invitaciones"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="8ac5e71b-52d9-4aa4-866d-c3add9d64ed1"
+            isDerived="false"
+            sourceEndRoleName="Enviar Invitaciones"
+            targetEndRoleName="Correo Electronico url registro"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="52680bbe-8197-49e5-b52f-e2fa2f6fd5af"
+              LastKnownName="Correo Electronico url registro"
+              LastKnownLocation="Modelo de Junggla.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0e6e4aac-9a8c-4152-9dee-3da9727ff2e0"
+                  name="Enviar Invitaciones"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5d3b2a7e-217b-4159-8cbf-e612a74b938e"
+                  name="Correo Electronico url registro"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="52680bbe-8197-49e5-b52f-e2fa2f6fd5af"
+        name="Correo Electronico url registro"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="eec322fe-3578-4e3f-a1d2-4d904e22e7d4"
+            isDerived="false"
+            sourceEndRoleName="Correo Electronico url registro"
+            targetEndRoleName="Actor1"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="83e6f7af-72d5-448d-a408-4153c5b90ae9"
+              LastKnownName="Actor1"
+              LastKnownLocation="Modelo de Junggla.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0a5f93ae-d90f-49ca-b59e-6b9d5eb869fb"
+                  name="Correo Electronico url registro"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b7d9d5f9-9743-44c5-b557-51dcce26e7ed"
+                  name="Actor1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="ceea0c46-90d6-4ba6-beda-76d55ea2096f"
+        name="Actor2"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="6236a010-24ff-4329-baa0-ce6d8918f49e"
+            isDerived="false"
+            sourceEndRoleName="Actor2"
+            targetEndRoleName="Correo con url alta formulario usuario"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="6e7141f2-a801-419a-bb7e-be603b199460"
+              LastKnownName="Correo con url alta formulario usuario"
+              LastKnownLocation="Modelo de Junggla.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bd9ec594-59bd-4510-a236-34934784f2c6"
+                  name="Actor2"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4c1c1179-b5f6-43d1-85ab-c30b74ed33fc"
+                  name="Correo con url alta formulario usuario"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6e7141f2-a801-419a-bb7e-be603b199460"
+        name="Correo con url alta formulario usuario"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="501d4660-a3f6-4210-b243-7b7ee56af42a"
+            isDerived="false"
+            sourceEndRoleName="Correo con url alta formulario usuario"
+            targetEndRoleName="Formulario Alta"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="fb47617d-1602-496c-97c9-75e21ad53ad8"
+              LastKnownName="Formulario Alta"
+              LastKnownLocation="Modelo de Junggla.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="67e1cd1c-cae8-483b-855b-7989bc8cfde8"
+                  name="Correo con url alta formulario usuario"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fdf5fb18-793a-4711-827e-977ebb9d9c47"
+                  name="Formulario Alta"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="fb47617d-1602-496c-97c9-75e21ad53ad8"
+        name="Formulario Alta"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="4658398c-4408-4170-9b42-73882ed040d9"
+            isDerived="false"
+            sourceEndRoleName="Formulario Alta"
+            targetEndRoleName="Mensaje confirmacion alta"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="35fc11fb-e4e2-420e-91b3-00bde40f6f6d"
+              LastKnownName="Mensaje confirmacion alta"
+              LastKnownLocation="Modelo de Junggla.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b4b03dc8-cb77-4f69-ae8d-d016e21e5d70"
+                  name="Formulario Alta"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="726eb826-007d-4582-a764-b9464c37489c"
+                  name="Mensaje confirmacion alta"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="35fc11fb-e4e2-420e-91b3-00bde40f6f6d"
+        name="Mensaje confirmacion alta"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="dbf9e632-66f6-4675-a66a-26b0dcac9ebb"
+            isDerived="false"
+            sourceEndRoleName="Mensaje confirmacion alta"
+            targetEndRoleName="inicio session usuario"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f0705073-abb5-4d21-bdff-ea5fe834ab42"
+              LastKnownName="inicio session usuario"
+              LastKnownLocation="Modelo de Junggla.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b3f47e1a-3d7f-4c6f-91b2-78552d843f10"
+                  name="Mensaje confirmacion alta"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="abb6a073-5ad1-480b-9b9b-4fd62fbac5af"
+                  name="inicio session usuario"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f0705073-abb5-4d21-bdff-ea5fe834ab42"
+        name="inicio session usuario"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="d923fae0-abe8-4006-9d88-1876cba1f605"
+        name="Actor3"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="85f9ccb5-62eb-4d30-9054-b41ab2947046"
+            isDerived="false"
+            sourceEndRoleName="Actor3"
+            targetEndRoleName="Enlace Registro"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="5744882b-55fe-4b66-b3fc-4f6c20d5a1c4"
+              LastKnownName="Enlace Registro"
+              LastKnownLocation="Modelo de Junggla.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7657911a-812c-41ef-b4f5-aeebbc334a60"
+                  name="Actor3"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4ce2fad7-8896-401e-ae36-133b400d9ea4"
+                  name="Enlace Registro"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5744882b-55fe-4b66-b3fc-4f6c20d5a1c4"
+        name="Enlace Registro"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="9034b687-4d63-4915-a9ec-90861b908c63"
+            isDerived="false"
+            sourceEndRoleName="Enlace Registro"
+            targetEndRoleName="Formulario Cuenta empresa"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="eca598c4-5dda-45e7-b300-5a05dbcd8e81"
+              LastKnownName="Formulario Cuenta empresa"
+              LastKnownLocation="Modelo de Junggla.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="221ad577-26cc-4d30-b5fd-da9f89c51063"
+                  name="Enlace Registro"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ff7651ee-a249-4dd9-b561-6fd3f27dcca4"
+                  name="Formulario Cuenta empresa"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="eca598c4-5dda-45e7-b300-5a05dbcd8e81"
+        name="Formulario Cuenta empresa"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="19f52a82-8cdc-4b50-8c79-c84c12e0ad93"
+            isDerived="false"
+            sourceEndRoleName="Formulario Cuenta empresa"
+            targetEndRoleName="Añadir resposable"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="1dfd7a81-5fcb-4a5b-8fb0-6af7b2dd0525"
+              LastKnownName="Añadir resposable"
+              LastKnownLocation="Modelo de Junggla.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="44bf2aee-ce61-4f50-997b-71bed94a6698"
+                  name="Formulario Cuenta empresa"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5e8181b2-cdc5-428a-adc9-f7cc00749aac"
+                  name="Añadir resposable"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1dfd7a81-5fcb-4a5b-8fb0-6af7b2dd0525"
+        name="Añadir resposable"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="1bd6aa76-f16c-48ef-8b7a-ffec99031ea9"
+            isDerived="false"
+            sourceEndRoleName="Añadir resposable"
+            targetEndRoleName="Correo de confirmacion alta"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="81753246-12d7-4367-92f0-2225a676a326"
+              LastKnownName="Correo de confirmacion alta"
+              LastKnownLocation="Modelo de Junggla.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="833da4d8-cde1-4262-ba56-240aed3328ae"
+                  name="Añadir resposable"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="da03d6c5-6766-4a5b-b1a6-c25b1b1ca6f9"
+                  name="Correo de confirmacion alta"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="81753246-12d7-4367-92f0-2225a676a326"
+        name="Correo de confirmacion alta"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="277c24b4-bd29-427f-b93a-17671ba1d9a7"
+            isDerived="false"
+            sourceEndRoleName="Correo de confirmacion alta"
+            targetEndRoleName="inicio de sesion"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f7c9d338-212f-426e-9c55-25d3543faec1"
+              LastKnownName="inicio de sesion"
+              LastKnownLocation="Modelo de Junggla.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1ce82203-7de8-4d64-89be-edc3af576b74"
+                  name="Correo de confirmacion alta"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="767e956b-cd98-4779-a96a-6b183b17edd3"
+                  name="inicio de sesion"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f7c9d338-212f-426e-9c55-25d3543faec1"
+        name="inicio de sesion"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c86d53e0-e788-446a-8f8d-a8cd073f398c"
+        name="TBLINVITACION"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="d35d0554-aac6-4517-8f73-aa54d2c5a56b"
+            isDerived="false"
+            sourceEndRoleName="TBLINVITACION"
+            targetEndRoleName="TBLESTADO"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="09c03b09-d45b-4735-ae39-bb82be4ee71d"
+              LastKnownName="TBLESTADO"
+              LastKnownLocation="Modelo de Junggla.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="70a9ec48-9672-4e37-b3d4-5ef7fe5703fe"
+                  name="TBLINVITACION"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ec6d0343-6e0c-43fb-8d5b-3ffdd727d70f"
+                  name="TBLESTADO"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="d93a1286-b286-4365-b8fc-6c7fbeca95f9"
+            name="PK_INVITACION"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="2ede64f4-5274-4d50-964e-b8347559535b"
+            name="MAIL"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="e7d34dc2-bd72-40ae-9c11-d2336d4e5b9e"
+            name="ID_ESTADO"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="dd1242b5-0e4a-457c-a1a6-253fdf3f8cfe"
+            name="ID_TIPO"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="09c03b09-d45b-4735-ae39-bb82be4ee71d"
+        name="TBLESTADO"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="b4814648-9931-444f-a50e-2845c60db513"
+            name="PK_ESTADO"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="e3b97f63-11b2-4e5e-9ef3-56cde9e58869"
+            name="DESCRIPCION"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

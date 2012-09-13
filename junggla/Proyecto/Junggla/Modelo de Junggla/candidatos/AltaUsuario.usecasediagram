@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="458c9b08-0d9b-4f8d-8cd2-872a477f88b3" name="AltaUsuario" linkedPackageId="9b9102b2-508f-4b11-9658-053dc671d416" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="8c495d0d-3cd6-4692-9aa1-e9a5a8fe66c9">
+      <profileInstance Id="beacd8fb-8dc5-43aa-96f8-084f8f4b5371" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="011ae6ec-1a81-402a-a764-51770a0b8004">
+      <profileInstance Id="18e7a428-64fc-457f-b4bb-e104688864b9" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="df814ebf-46d5-4133-83b8-0fd3ebb6fd28" name="Actor2" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ceea0c46-90d6-4ba6-beda-76d55ea2096f" />
+        <targetEnds>
+          <association Id="f84bc9c0-9e5e-4f9c-9722-e924e9c8870c" isDerived="false" sourceEndRoleName="Actor2" targetEndRoleName="Correo con url alta formulario usuario" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7aadc89d-bbb3-4f65-8782-eb7c32ef35fd" LastKnownName="Correo con url alta formulario usuario" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1024b33a-de41-43dd-b693-d4de2f1b2581" name="Actor2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="bd9ec594-59bd-4510-a236-34934784f2c6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4d26ace2-e732-4e33-8d5e-e21284aac201" name="Correo con url alta formulario usuario" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4c1c1179-b5f6-43d1-85ab-c30b74ed33fc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6236a010-24ff-4329-baa0-ce6d8918f49e" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7aadc89d-bbb3-4f65-8782-eb7c32ef35fd" name="Correo con url alta formulario usuario" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6e7141f2-a801-419a-bb7e-be603b199460" />
+        <targetEnds>
+          <association Id="d207a3ee-476f-42fa-b355-550b50167f24" isDerived="false" sourceEndRoleName="Correo con url alta formulario usuario" targetEndRoleName="Formulario Alta" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="832d4db7-86cc-4662-bc0c-01f7811235fb" LastKnownName="Formulario Alta" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2a3e854d-6ed3-42c4-b07a-f91f29efac8e" name="Correo con url alta formulario usuario" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="67e1cd1c-cae8-483b-855b-7989bc8cfde8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="409b6dcb-de20-4b0a-8239-2a05044aa4ca" name="Formulario Alta" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fdf5fb18-793a-4711-827e-977ebb9d9c47" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="501d4660-a3f6-4210-b243-7b7ee56af42a" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="832d4db7-86cc-4662-bc0c-01f7811235fb" name="Formulario Alta" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fb47617d-1602-496c-97c9-75e21ad53ad8" />
+        <targetEnds>
+          <association Id="f797d06d-4023-4070-a2d3-f6eaf194b791" isDerived="false" sourceEndRoleName="Formulario Alta" targetEndRoleName="Mensaje confirmacion alta" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="854ffa8c-e929-4d41-95d8-b11d44169964" LastKnownName="Mensaje confirmacion alta" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e8547cad-565d-4202-ba6f-7b52f04a1535" name="Formulario Alta" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b4b03dc8-cb77-4f69-ae8d-d016e21e5d70" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3022d420-a743-495a-b386-1293c4a82431" name="Mensaje confirmacion alta" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="726eb826-007d-4582-a764-b9464c37489c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4658398c-4408-4170-9b42-73882ed040d9" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="854ffa8c-e929-4d41-95d8-b11d44169964" name="Mensaje confirmacion alta" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="35fc11fb-e4e2-420e-91b3-00bde40f6f6d" />
+        <targetEnds>
+          <association Id="2396d879-b8f9-4fd6-8870-8d8f99340f30" isDerived="false" sourceEndRoleName="Mensaje confirmacion alta" targetEndRoleName="inicio session usuario" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="4d5fd25a-1296-48bb-9446-c4a61ee03937" LastKnownName="inicio session usuario" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9f297d7c-fb7c-42eb-bbf6-7a067f03e1e7" name="Mensaje confirmacion alta" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b3f47e1a-3d7f-4c6f-91b2-78552d843f10" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0a441751-7cc1-4765-9a1d-eb03b806902a" name="inicio session usuario" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="abb6a073-5ad1-480b-9b9b-4fd62fbac5af" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="dbf9e632-66f6-4675-a66a-26b0dcac9ebb" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="4d5fd25a-1296-48bb-9446-c4a61ee03937" name="inicio session usuario" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f0705073-abb5-4d21-bdff-ea5fe834ab42" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="9b9102b2-508f-4b11-9658-053dc671d416" name="Modelo de Junggla">
+    <elementDefinition Id="a47be953-d4f5-419f-ad2f-fb087dc0d2a4" />
+  </package>
+</useCaseModelRoot>

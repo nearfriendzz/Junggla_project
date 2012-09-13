@@ -1,0 +1,39 @@
+PK_SECTOR ,DESCRIPCION
+0,(Seleccionar)
+1,Actividades informáticas
+2,Actividades inmobiliarias
+3,Actividades recreativas culturales y deportivas
+4,Administracion Pública y Defensa
+5,Agricultura ganadería y pesca
+6,Alimentación y productos afines
+7,Automoción
+8,Comercio (al por mayor y al por menor)
+9,Construcción
+10,Correos y telecomunicaciones
+11,Edición artes gráficas y reproducción de soportes grabados
+12,Educación
+13,Electrónica y electricidad
+14,Energía minería y medio ambiente
+15,Fuerza de ventas
+16,Hardware/Equipos de oficina
+17,Industria del transporte
+18,Industria ligera (mobiliario)
+19,Industria madera/papel
+20,Industria pesada (maquinaria)
+21,Industria química y farmacéutica
+22,Industria textil (textil/moda/hogar)
+23,Instalaciones y mantenimiento
+24,Investigación y Desarrollo
+25,Medios de comunicación
+26,ONG y servicios sociales
+27,Sanidad
+28,Servicios (hostelería viajes restauración)
+29,Servicios de RRHH
+30,Servicios de TI
+31,Servicios de consultoría asesoría y auditoría
+32,Servicios de publicidad
+33,Servicios financieros
+34,Servicios personales
+35,Servicios técnicos de arquitectura e ingeniería
+36,Otras actividades
+37,Telemarketing

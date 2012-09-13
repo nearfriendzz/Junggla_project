@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="3d2845b3-f39a-4feb-8fde-2bf8d5eba8c7" name="ERClases" linkedPackageId="fe1537d8-d136-493d-bd4e-0700a7a98576" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="59ad6c63-2783-421a-9326-d142a66a4936">
+      <profileInstance Id="6eb0a733-9bea-4775-93d0-9961b3e7d83d" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="b6b59176-3418-4d21-b993-fc584afd13e8">
+      <profileInstance Id="0ab44cc7-0f4d-4547-820f-81bbc0e4ef42" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="56c33857-40c1-40fc-8e12-70993490356e" name="TBLINVITACION" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c86d53e0-e788-446a-8f8d-a8cd073f398c" />
+        <targetEnds>
+          <association Id="99c55a23-06b1-43bf-8737-e0c59ebb8b2f" isDerived="false" sourceEndRoleName="TBLINVITACION" targetEndRoleName="TBLESTADO" isLeaf="false" isAbstract="false">
+            <classMoniker Id="11d38377-a917-48c6-ac11-aa1db2790fa6" LastKnownName="TBLESTADO" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1cb6482c-7636-4431-a81a-cf2d1ea2205b" name="TBLINVITACION" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="70a9ec48-9672-4e37-b3d4-5ef7fe5703fe" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4a668989-fd26-41d4-a125-ce6c8ade2ef8" name="TBLESTADO" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ec6d0343-6e0c-43fb-8d5b-3ffdd727d70f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d35d0554-aac6-4517-8f73-aa54d2c5a56b" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="9d3b2208-d240-4ae3-8e75-bbd8433556b8" name="PK_INVITACION" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d93a1286-b286-4365-b8fc-6c7fbeca95f9" />
+          </property>
+          <property Id="f0dbfd33-0359-41de-bc0b-b29129db6baf" name="MAIL" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2ede64f4-5274-4d50-964e-b8347559535b" />
+          </property>
+          <property Id="821b1b3d-7c17-44bc-93de-c31b9073afb0" name="ID_ESTADO" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e7d34dc2-bd72-40ae-9c11-d2336d4e5b9e" />
+          </property>
+          <property Id="8bf5e53a-930f-4f2f-864d-8c833a5ca9af" name="ID_TIPO" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="dd1242b5-0e4a-457c-a1a6-253fdf3f8cfe" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="11d38377-a917-48c6-ac11-aa1db2790fa6" name="TBLESTADO" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="09c03b09-d45b-4735-ae39-bb82be4ee71d" />
+        <ownedAttributesInternal>
+          <property Id="4c09bb31-dc58-4604-a524-3c9f97422cca" name="PK_ESTADO" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b4814648-9931-444f-a50e-2845c60db513" />
+          </property>
+          <property Id="f7c69d8f-e591-43b3-a177-a9272e6e9d6a" name="DESCRIPCION" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e3b97f63-11b2-4e5e-9ef3-56cde9e58869" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="fe1537d8-d136-493d-bd4e-0700a7a98576" name="Modelo de Junggla">
+    <elementDefinition Id="a47be953-d4f5-419f-ad2f-fb087dc0d2a4" />
+  </package>
+</logicalClassDesignerModel>

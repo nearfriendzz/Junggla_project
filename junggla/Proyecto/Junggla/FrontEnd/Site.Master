@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="FrontEnd.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style2
+        {
+            width: 180px;
+            height: 49px;
+        }
+    </style>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div >
+            <img alt="logo2" class="style2" 
+                        longdesc="http://localhost:5339/Image/blanco-junggla.png" 
+                        src="Image/blanco-junggla.png" />  
+            </div>
+           <div class="title">
+                ADMINISTRACION DE CONTENIDO 
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem Text="PAIS" Value="PAIS" NavigateUrl="~/Paises.aspx"/>
+                        <asp:MenuItem NavigateUrl="~/Provincia.aspx" Text="PROVINCIA" 
+                            Value="PROVINCIA"/>
+                        <asp:MenuItem Text="CANDIDATO" Value="CANDIDATO">
+                            <asp:MenuItem Text="PROFILE" Value="PROFILE"></asp:MenuItem>
+                            <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                            <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="INVITACION" Value="INVITACION">
+                            <asp:MenuItem Text="SOLICITUDES" Value="SOLICITUDES"></asp:MenuItem>
+                            <asp:MenuItem Text="LISTA DE ESTADO INVITACION" 
+                                Value="LISTA DE ESTADO INVITACION"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="COMUN" Value="COMUN">
+                            <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                            <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                            <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="EMPRESA" Value="EMPRESA"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+</body>
+</html>

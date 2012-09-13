@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Invitacion">
+  <useCaseModelRootMoniker Id="d7af1319-465b-4a4c-be72-a5930ad2a25d" />
+  <nestedChildShapes>
+    <actorShape Id="e1d06d4f-6adf-432a-9bc2-7e761f72fb4e" absoluteBounds="0.5, 1.125, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="3fcd6fb3-29d1-449a-8914-2adff9b41057" LastKnownName="Actor1" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="e1a1af7a-1e43-4d1c-bba9-a8ff3822a68b" absoluteBounds="1.875, 0.75, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="fbc5a0c4-ceb6-43b9-b1b9-d4bc59ed655c" LastKnownName="Invitacion" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseDependencyConnector edgePoints="[(1 : 1.31730769230769); (1.92102030774977 : 1.10476454436544)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <dependencyMoniker Id="cdae3127-990f-4251-aaf1-71916fb8a4de" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="e1d06d4f-6adf-432a-9bc2-7e761f72fb4e" />
+        <useCaseShapeMoniker Id="e1a1af7a-1e43-4d1c-bba9-a8ff3822a68b" />
+      </nodes>
+    </useCaseDependencyConnector>
+    <useCaseShape Id="4caad2f0-efb4-4648-8ee0-9548fc026881" absoluteBounds="4.25, 0.75, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="9498dbff-ab39-4447-bae5-e046559d0fe0" LastKnownName="Confirmar invitaciones" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseDependencyConnector edgePoints="[(2.875 : 1); (4.25 : 1)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <dependencyMoniker Id="f2de36d4-204e-42dd-904b-7ada45592574" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="e1a1af7a-1e43-4d1c-bba9-a8ff3822a68b" />
+        <useCaseShapeMoniker Id="4caad2f0-efb4-4648-8ee0-9548fc026881" />
+      </nodes>
+    </useCaseDependencyConnector>
+    <useCaseShape Id="cd1156a1-4311-4c62-aba1-1ba98c7e60c8" absoluteBounds="4.25, 1.75, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="1cb4ddcc-9809-4596-9291-edce57a4452a" LastKnownName="Enviar Invitaciones" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseDependencyConnector edgePoints="[(4.75 : 1.25); (4.75 : 1.75)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <dependencyMoniker Id="5b0fd350-aa6f-4ecb-baf5-8f768ae8f805" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="4caad2f0-efb4-4648-8ee0-9548fc026881" />
+        <useCaseShapeMoniker Id="cd1156a1-4311-4c62-aba1-1ba98c7e60c8" />
+      </nodes>
+    </useCaseDependencyConnector>
+    <useCaseShape Id="e61fcee0-69e9-4a78-a479-e456d89b90f9" absoluteBounds="1.875, 1.5, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="de758e4c-ef9d-444a-86f6-5748d9a9934b" LastKnownName="Correo Electronico url registro" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(4.2527472735393 : 1.97382880387049); (2.8737733805502 : 1.90125123055527)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="87ba0c37-1418-4f90-91bd-be4c005a562c" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="cd1156a1-4311-4c62-aba1-1ba98c7e60c8" />
+        <useCaseShapeMoniker Id="e61fcee0-69e9-4a78-a479-e456d89b90f9" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(1.91241569081263 : 1.73266636640389); (1 : 1.45192307692308)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="b66dc560-1e1e-4c80-8fa5-424580850358" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="e61fcee0-69e9-4a78-a479-e456d89b90f9" />
+        <actorShapeMoniker Id="e1d06d4f-6adf-432a-9bc2-7e761f72fb4e" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <rectangleShape Id="706542b4-d62a-4a53-b223-b8419be2fceb" absoluteBounds="3.5, 0.5, 2.25, 2.875" outlineColor="83, 134, 191" outlineThickness="0.03125" />
+  </nestedChildShapes>
+</useCaseDiagram>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="43" x="14" y="23" width="1145" height="873" text="Browser&#xA;http://..." measuredWidth="1145" measuredHeight="873"/>
+  <widgets xsi:type="model:HLine" id="44" x="14" y="848" width="1145" measuredWidth="1145" measuredHeight="6"/>
+  <widgets xsi:type="model:LinkBar" id="45" x="813" y="863" text="Acerca de,Blog,API,Privacidad, Terminos, Ayuda" measuredWidth="336" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="54" height="23" text="Acerca de"/>
+    <items x="72" y="0" width="26" height="23" text="Blog"/>
+    <items x="116" y="0" width="20" height="23" text="API"/>
+    <items x="154" y="0" width="57" height="23" text="Privacidad"/>
+    <items x="229" y="0" width="52" height="23" text="Terminos"/>
+    <items x="299" y="0" width="36" height="23" text="Ayuda"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="46" x="14" y="76" width="1141" height="41" measuredWidth="1141" measuredHeight="41" background="#000000">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="47" x="456" y="116" width="133" height="28" measuredWidth="133" measuredHeight="28" src="../../logoblanco.png"/>
+  <widgets xsi:type="model:Label" id="48" x="380" y="85" text="Home" measuredWidth="39" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="49" x="436" y="85" text="Busqueda" measuredWidth="59" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="50" x="512" y="85" text="Estadistica" measuredWidth="62" measuredHeight="23" foreground="#f9cb9c">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="51" x="588" y="85" text="Colección" measuredWidth="58" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="52" x="920" y="85" text="Cuenta" measuredWidth="44" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="53" x="972" y="85" text="Salir" measuredWidth="29" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="54" x="14" y="116" width="1141" height="733" measuredWidth="1141" measuredHeight="733" background="#f3f3f3" foreground="#f3f3f3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="55" x="208" y="81" width="133" height="31" measuredWidth="133" measuredHeight="31" src="../../logoevenzon.png"/>
+  <widgets xsi:type="model:Rectangle" id="56" x="370" y="202" width="551" height="639" measuredWidth="551" measuredHeight="639" foreground="#cccccc">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="57" x="234" y="202" width="137" height="580" measuredWidth="137" measuredHeight="580" background="#eeeeee" foreground="#cccccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="58" x="242" y="311" width="89" text="Pais" measuredWidth="89" measuredHeight="21">
+    <font size="8" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="59" x="313" y="278" width="48" height="24" text="Buscar" measuredWidth="48" measuredHeight="24" background="#eeeeee" border="solid-rounded">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="60" x="384" y="235" width="516" height="89" measuredWidth="516" measuredHeight="89" background="#eeeeee" foreground="#999999"/>
+  <widgets xsi:type="model:Label" id="61" x="404" y="565" measuredWidth="5" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="62" x="450" y="286" text="Madrid,España" measuredWidth="93" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="63" x="450" y="272" text="Analista Programador" measuredWidth="115" measuredHeight="15">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="64" x="249" y="243" width="112" text="Palabra clave" measuredWidth="112" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="65" x="242" y="331" width="119" text="España" measuredWidth="119" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="66" x="242" y="360" width="89" text="Provincia" measuredWidth="89" measuredHeight="21">
+    <font size="8" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="67" x="242" y="380" width="119" text="Indiferente" measuredWidth="119" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="68" x="242" y="468" width="89" text="Experiencia" measuredWidth="89" measuredHeight="21">
+    <font size="8" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="69" x="242" y="488" width="119" text="Indiferente" measuredWidth="119" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="70" x="242" y="519" width="89" text="Edad" measuredWidth="89" measuredHeight="21">
+    <font size="8" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="71" x="242" y="539" width="119" text="Indiferente" measuredWidth="119" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="72" x="242" y="570" width="89" text="Idiomas" measuredWidth="89" measuredHeight="21">
+    <font size="8" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="73" x="242" y="590" width="119" text="Indiferente" measuredWidth="119" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="74" x="242" y="619" text="Nivel Idiomas" measuredWidth="76" measuredHeight="21">
+    <font size="8" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="75" x="242" y="639" width="119" text="Indiferente" measuredWidth="119" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="76" x="242" y="413" width="89" text="Estudios" measuredWidth="89" measuredHeight="21">
+    <font size="8" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="77" x="242" y="433" width="119" text="Indiferente" measuredWidth="119" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="78" x="242" y="208" text="Opciones de busqueda" measuredWidth="102" measuredHeight="20" foreground="#134f5c">
+    <font size="7" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="79" x="450" y="250" width="121" text="Robinson Hernandez" measuredWidth="121" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="80" x="394" y="250" width="49" height="47" measuredWidth="49" measuredHeight="47" src="../../candidates_avatars_profile.png"/>
+  <widgets xsi:type="model:Label" id="81" x="757" y="242" text="5 años de Experiencia" measuredWidth="133" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="82" x="573" y="250" text="(25 Años)" measuredWidth="60" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="83" x="384" y="331" width="516" height="89" measuredWidth="516" measuredHeight="89" background="#eeeeee" foreground="#999999"/>
+  <widgets xsi:type="model:Label" id="84" x="450" y="382" text="Madrid,España" measuredWidth="93" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="85" x="450" y="368" text="Analista Programador" measuredWidth="115" measuredHeight="15">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="86" x="450" y="346" width="121" text="Robinson Hernandez" measuredWidth="121" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="87" x="394" y="346" width="49" height="47" measuredWidth="49" measuredHeight="47" src="../../candidates_avatars_profile.png"/>
+  <widgets xsi:type="model:Label" id="88" x="757" y="338" text="5 años de Experiencia" measuredWidth="133" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="89" x="573" y="346" text="(25 Años)" measuredWidth="60" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="90" x="384" y="434" width="516" height="89" measuredWidth="516" measuredHeight="89" background="#eeeeee" foreground="#999999"/>
+  <widgets xsi:type="model:Label" id="91" x="450" y="485" text="Madrid,España" measuredWidth="93" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="92" x="450" y="471" text="Analista Programador" measuredWidth="115" measuredHeight="15">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="93" x="450" y="449" width="121" text="Robinson Hernandez" measuredWidth="121" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="94" x="394" y="449" width="49" height="47" measuredWidth="49" measuredHeight="47" src="../../candidates_avatars_profile.png"/>
+  <widgets xsi:type="model:Label" id="95" x="757" y="441" text="5 años de Experiencia" measuredWidth="133" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="96" x="573" y="449" text="(25 Años)" measuredWidth="60" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="97" x="384" y="533" width="516" height="89" measuredWidth="516" measuredHeight="89" background="#eeeeee" foreground="#999999"/>
+  <widgets xsi:type="model:Label" id="98" x="450" y="584" text="Madrid,España" measuredWidth="93" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="99" x="450" y="570" text="Analista Programador" measuredWidth="115" measuredHeight="15">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="100" x="450" y="548" width="121" text="Robinson Hernandez" measuredWidth="121" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="101" x="394" y="548" width="49" height="47" measuredWidth="49" measuredHeight="47" src="../../candidates_avatars_profile.png"/>
+  <widgets xsi:type="model:Label" id="102" x="757" y="540" text="5 años de Experiencia" measuredWidth="133" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="103" x="573" y="548" text="(25 Años)" measuredWidth="60" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="104" x="384" y="632" width="516" height="89" measuredWidth="516" measuredHeight="89" background="#eeeeee" foreground="#999999"/>
+  <widgets xsi:type="model:Label" id="105" x="450" y="683" text="Madrid,España" measuredWidth="93" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="106" x="450" y="669" text="Analista Programador" measuredWidth="115" measuredHeight="15">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="107" x="450" y="647" width="121" text="Robinson Hernandez" measuredWidth="121" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="108" x="394" y="647" width="49" height="47" measuredWidth="49" measuredHeight="47" src="../../candidates_avatars_profile.png"/>
+  <widgets xsi:type="model:Label" id="109" x="757" y="639" text="5 años de Experiencia" measuredWidth="133" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="110" x="573" y="647" text="(25 Años)" measuredWidth="60" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="111" x="384" y="728" width="516" height="89" measuredWidth="516" measuredHeight="89" background="#eeeeee" foreground="#999999"/>
+  <widgets xsi:type="model:Label" id="112" x="450" y="779" text="Madrid,España" measuredWidth="93" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="113" x="450" y="765" text="Analista Programador" measuredWidth="115" measuredHeight="15">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="114" x="450" y="743" width="121" text="Robinson Hernandez" measuredWidth="121" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="115" x="394" y="743" width="49" height="47" measuredWidth="49" measuredHeight="47" src="../../candidates_avatars_profile.png"/>
+  <widgets xsi:type="model:Label" id="116" x="757" y="735" text="5 años de Experiencia" measuredWidth="133" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="117" x="573" y="743" text="(25 Años)" measuredWidth="60" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

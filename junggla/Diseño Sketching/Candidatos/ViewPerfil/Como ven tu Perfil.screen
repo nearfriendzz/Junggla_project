@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="40" y="24" width="1145" height="1289" text="Browser&#xA;http://..." measuredWidth="1145" measuredHeight="1289"/>
+  <widgets xsi:type="model:LinkBar" id="3" x="823" y="864" text="Acerca de,Blog,API,Privacidad, Terminos, Ayuda" measuredWidth="336" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="54" height="23" text="Acerca de"/>
+    <items x="72" y="0" width="26" height="23" text="Blog"/>
+    <items x="116" y="0" width="20" height="23" text="API"/>
+    <items x="154" y="0" width="57" height="23" text="Privacidad"/>
+    <items x="229" y="0" width="52" height="23" text="Terminos"/>
+    <items x="299" y="0" width="36" height="23" text="Ayuda"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="4" x="44" y="76" width="1141" height="41" measuredWidth="1141" measuredHeight="41" background="#6fa8dc" foreground="#6fa8dc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="380" y="85" text="Home" measuredWidth="39" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="436" y="85" text="Perfil" measuredWidth="35" measuredHeight="23" foreground="#f9cb9c">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="483" y="85" text="Estadistica" measuredWidth="62" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="565" y="85" text="Busqueda" measuredWidth="59" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="920" y="85" text="Cuenta" measuredWidth="44" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="972" y="85" text="Salir" measuredWidth="29" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="11" x="50" y="139" width="1131" height="1134" measuredWidth="1131" measuredHeight="1134" background="#f3f3f3" foreground="#f3f3f3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="12" x="368" y="176" width="553" height="1073" measuredWidth="553" measuredHeight="1073" foreground="#cccccc">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="13" x="488" y="245" width="287" text="Robinson Hernandez" measuredWidth="287" measuredHeight="29" foreground="#134f5c">
+    <font size="12" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="661" y="247" text="(26 Años)" measuredWidth="60" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="15" x="488" y="271" text="Analista Programador Senior" measuredWidth="174" measuredHeight="25" foreground="#666666">
+    <font size="10" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="16" x="232" y="176" width="137" height="580" measuredWidth="137" measuredHeight="580" background="#eeeeee" foreground="#cccccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="18" x="384" y="194" width="101" height="102" measuredWidth="101" measuredHeight="102" foreground="#cccccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="240" y="273" width="121" text="Ingenieria de Sistemas" measuredWidth="121" measuredHeight="21" foreground="#999999">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="21" x="240" y="257" width="121" text="Profesión" measuredWidth="121" measuredHeight="21" foreground="#444444">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="22" x="240" y="238" width="65" text="Hombre" measuredWidth="65" measuredHeight="21" foreground="#999999">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="23" x="240" y="222" width="121" text="Sexo" measuredWidth="121" measuredHeight="21" foreground="#444444">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="24" x="240" y="306" width="89" text="Localidad" measuredWidth="89" measuredHeight="21">
+    <font size="8" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="26" x="240" y="328" width="119" measuredWidth="119" measuredHeight="6" foreground="#444444"/>
+  <widgets xsi:type="model:Label" id="27" x="240" y="350" width="121" text="España" measuredWidth="121" measuredHeight="21" foreground="#999999">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="28" x="240" y="334" width="33" text="Pais" measuredWidth="33" measuredHeight="21" foreground="#444444">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="29" x="240" y="386" width="121" text="Madrid" measuredWidth="121" measuredHeight="21" foreground="#999999">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="30" x="240" y="370" width="121" text="Provincia" measuredWidth="121" measuredHeight="21" foreground="#444444">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="31" x="240" y="418" width="121" text="Republica Dominicana" measuredWidth="121" measuredHeight="21" foreground="#999999">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="32" x="240" y="400" width="121" text="Nacionalidad" measuredWidth="121" measuredHeight="21" foreground="#444444">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="33" x="240" y="213" width="119" measuredWidth="119" measuredHeight="6" foreground="#444444"/>
+  <widgets xsi:type="model:Label" id="34" x="240" y="193" width="89" text="Personal" measuredWidth="89" measuredHeight="21">
+    <font size="8" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="41" x="387" y="199" width="91" height="91" measuredWidth="91" measuredHeight="91" src="../img/profile_image.jpg"/>
+  <widgets xsi:type="model:Image" id="68" x="208" y="81" width="133" height="31" measuredWidth="133" measuredHeight="31" src="../../logoevenzon.png"/>
+  <widgets xsi:type="model:HLine" id="69" x="380" y="334" width="533" measuredWidth="533" measuredHeight="6" foreground="#cccccc"/>
+  <widgets xsi:type="model:Button" id="70" x="841" y="191" text="Contactar" measuredWidth="72" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="71" x="728" y="191" text="Descargar Perfil" measuredWidth="102" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="73" x="384" y="319" text="Informacion Formativa" measuredWidth="132" measuredHeight="23" foreground="#0b5394">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="74" x="443" y="369" text="Microsoft Visios" measuredWidth="89" measuredHeight="23" foreground="#444444">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="76" x="443" y="347" text="Instito tecnologico de las americas" measuredWidth="195" measuredHeight="23" foreground="#444444">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="78" x="774" y="346" text="3 Mes" measuredWidth="41" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="79" x="443" y="417" text="Ing. de Sistema de la Informacion" measuredWidth="181" measuredHeight="23" foreground="#444444">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="80" x="443" y="395" text="Universidad Autonoma de Santo Domingo" measuredWidth="238" measuredHeight="23" foreground="#444444">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="81" x="774" y="394" text="5 años" measuredWidth="44" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="82" x="376" y="469" width="533" measuredWidth="533" measuredHeight="6" foreground="#cccccc"/>
+  <widgets xsi:type="model:Label" id="83" x="380" y="454" text="Informacion Laboral" measuredWidth="116" measuredHeight="23" foreground="#0b5394">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="84" x="383" y="839" width="533" measuredWidth="533" measuredHeight="6" foreground="#cccccc"/>
+  <widgets xsi:type="model:Label" id="85" x="387" y="824" text="Skills" measuredWidth="33" measuredHeight="23" foreground="#0b5394">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="86" x="380" y="1039" width="533" measuredWidth="533" measuredHeight="6" foreground="#cccccc"/>
+  <widgets xsi:type="model:Label" id="87" x="384" y="1024" text="Idiomas" measuredWidth="48" measuredHeight="23" foreground="#0b5394">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="88" x="376" y="1128" width="533" measuredWidth="533" measuredHeight="6" foreground="#cccccc"/>
+  <widgets xsi:type="model:Label" id="89" x="380" y="1113" text="Informacion adicional" measuredWidth="124" measuredHeight="23" foreground="#0b5394">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="90" x="443" y="504" text="Analista .net" measuredWidth="70" measuredHeight="23" foreground="#444444">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="91" x="443" y="482" text="Wolter Kluwer, España" measuredWidth="130" measuredHeight="23" foreground="#444444">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="92" x="774" y="481" text="03/2011 - Actualmente" measuredWidth="136" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="93" x="443" y="528" width="300" height="82" text="sem eget est egestas volutpat. Vivamus consectetuer hendrerit lacus. Cras non dolor. Vivamus in erat ut urna cursus vestibulum. Fusce commodo aliquam arcu. Nam commodo suscipit quam. Quisque id odio. Praesent venenatis metus at tortor pulvinar varius." measuredWidth="300" measuredHeight="82" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="94" x="443" y="609" width="375" height="24" text="Oracle 11g , Ajax , Asp.net , Sql server 2005 , visual studio 2010 , C# " measuredWidth="375" measuredHeight="24" dummyText="true">
+    <font underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="96" x="448" y="680" text="Analista Programador .net" measuredWidth="143" measuredHeight="23" foreground="#444444">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="97" x="448" y="658" text="Glokal Consulting" measuredWidth="101" measuredHeight="23" foreground="#444444">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="98" x="779" y="657" text="01/2010 - 02/2011" measuredWidth="112" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="99" x="448" y="704" width="300" height="82" text="sem eget est egestas volutpat. Vivamus consectetuer hendrerit lacus. Cras non dolor. Vivamus in erat ut urna cursus vestibulum. Fusce commodo aliquam arcu. Nam commodo suscipit quam. Quisque id odio. Praesent venenatis metus at tortor pulvinar varius." measuredWidth="300" measuredHeight="82" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="100" x="448" y="785" width="375" height="24" text="Oracle 11g , Ajax , Asp.net , Sql server 2005 , visual studio 2010 , C# " measuredWidth="375" measuredHeight="24" dummyText="true">
+    <font underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="101" x="705" y="863" text="Medio" measuredWidth="43" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="102" x="395" y="864" width="112" text="Microsoft Visio" measuredWidth="112" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="103" x="590" y="869" text="Más de 5 años" measuredWidth="75" measuredHeight="15">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="104" x="773" y="863" text="Actualmente" measuredWidth="76" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="110" x="705" y="888" text="Medio" measuredWidth="43" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="111" x="395" y="889" width="112" text=".Net Framework 2.4" measuredWidth="112" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="112" x="590" y="894" text="Más de 5 años" measuredWidth="75" measuredHeight="15">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="113" x="773" y="888" text="Actualmente" measuredWidth="76" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="114" x="705" y="913" text="Medio" measuredWidth="43" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="115" x="395" y="914" width="112" text="Ajax" measuredWidth="112" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="116" x="590" y="919" text="Más de 5 años" measuredWidth="75" measuredHeight="15">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="117" x="773" y="913" text="Actualmente" measuredWidth="76" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="118" x="706" y="938" text="Medio" measuredWidth="43" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="119" x="396" y="939" width="112" text="Jquery" measuredWidth="112" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="120" x="591" y="944" text="Más de 5 años" measuredWidth="75" measuredHeight="15">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="121" x="774" y="938" text="Actualmente" measuredWidth="76" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="122" x="705" y="968" text="Medio" measuredWidth="43" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="123" x="395" y="969" width="137" text="Framework 3.0 y 4.0" measuredWidth="137" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="124" x="590" y="974" text="Mas de 2 años" measuredWidth="75" measuredHeight="15">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="125" x="773" y="968" text="Actualmente" measuredWidth="76" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="126" x="706" y="992" text="Medio" measuredWidth="43" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="127" x="396" y="993" width="112" text="Oracle 11g y 8i" measuredWidth="112" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="128" x="591" y="998" text="Menos de 1 año" measuredWidth="84" measuredHeight="15">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="129" x="774" y="992" text="Actualmente" measuredWidth="76" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="130" x="470" y="1051" text="Medio" measuredWidth="43" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="131" x="395" y="1056" text="Ingles" measuredWidth="31" measuredHeight="15">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="132" x="471" y="1075" text="Nativo /Bilingue" measuredWidth="97" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="133" x="396" y="1080" text="Español" measuredWidth="41" measuredHeight="15">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="134" x="387" y="1144" width="522" height="57" text="sem eget est egestas volutpat. Vivamus consectetuer hendrerit lacus. Cras non dolor. Vivamus in erat ut urna cursus vestibulum. Fusce commodo aliquam arcu. Nam commodo suscipit quam. Quisque id odio. Praesent venenatis metus at tortor pulvinar varius." measuredWidth="522" measuredHeight="57" dummyText="true">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

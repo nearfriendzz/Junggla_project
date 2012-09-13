@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Junggla", "Junggla\Junggla.csproj", "{A3A77C56-3415-442C-9001-F0003CA4B7B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEnd", "FrontEnd\FrontEnd.csproj", "{751FF2E7-BD1D-40C8-8082-0B6561881D3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd", "BackEnd\BackEnd.csproj", "{AB51CD6A-73B1-4225-AAE3-7F8B29AF5EB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3A77C56-3415-442C-9001-F0003CA4B7B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3A77C56-3415-442C-9001-F0003CA4B7B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3A77C56-3415-442C-9001-F0003CA4B7B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3A77C56-3415-442C-9001-F0003CA4B7B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{751FF2E7-BD1D-40C8-8082-0B6561881D3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{751FF2E7-BD1D-40C8-8082-0B6561881D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{751FF2E7-BD1D-40C8-8082-0B6561881D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{751FF2E7-BD1D-40C8-8082-0B6561881D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB51CD6A-73B1-4225-AAE3-7F8B29AF5EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB51CD6A-73B1-4225-AAE3-7F8B29AF5EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB51CD6A-73B1-4225-AAE3-7F8B29AF5EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB51CD6A-73B1-4225-AAE3-7F8B29AF5EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

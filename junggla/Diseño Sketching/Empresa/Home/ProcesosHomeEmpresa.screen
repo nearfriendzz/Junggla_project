@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="123" x="14" y="23" width="1145" height="873" text="Browser&#xA;http://..." measuredWidth="1145" measuredHeight="873"/>
+  <widgets xsi:type="model:HLine" id="124" x="14" y="848" width="1145" measuredWidth="1145" measuredHeight="6"/>
+  <widgets xsi:type="model:LinkBar" id="125" x="813" y="863" text="Acerca de,Blog,API,Privacidad, Terminos, Ayuda" measuredWidth="336" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="54" height="23" text="Acerca de"/>
+    <items x="72" y="0" width="26" height="23" text="Blog"/>
+    <items x="116" y="0" width="20" height="23" text="API"/>
+    <items x="154" y="0" width="57" height="23" text="Privacidad"/>
+    <items x="229" y="0" width="52" height="23" text="Terminos"/>
+    <items x="299" y="0" width="36" height="23" text="Ayuda"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="126" x="14" y="76" width="1141" height="41" measuredWidth="1141" measuredHeight="41" background="#000000">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="127" x="456" y="116" width="133" height="28" measuredWidth="133" measuredHeight="28" src="../../logoblanco.png"/>
+  <widgets xsi:type="model:Label" id="128" x="380" y="85" text="Home" measuredWidth="39" measuredHeight="23" foreground="#f9cb9c">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="129" x="436" y="85" text="Busqueda" measuredWidth="59" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="130" x="512" y="85" text="Estadistica" measuredWidth="62" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="131" x="588" y="85" text="Colección" measuredWidth="58" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="132" x="920" y="85" text="Cuenta" measuredWidth="44" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="133" x="972" y="85" text="Salir" measuredWidth="29" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="134" x="14" y="116" width="1141" height="733" measuredWidth="1141" measuredHeight="733" background="#f3f3f3" foreground="#f3f3f3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="135" x="208" y="81" width="133" height="31" measuredWidth="133" measuredHeight="31" src="../../logoevenzon.png"/>
+  <widgets xsi:type="model:Image" id="136" x="264" y="173" width="137" height="52" measuredWidth="137" measuredHeight="52" src="../../Candidatos/img/google.jpg"/>
+  <widgets xsi:type="model:Tabs" id="137" x="671" y="214" text="Actividades Recientes,Perfil, Procesos" measuredWidth="250" measuredHeight="27" selection="2">
+    <items x="1" y="0" width="134" height="27" text="Actividades Recientes"/>
+    <items x="135" y="0" width="47" height="27" text="Perfil"/>
+    <items x="182" y="0" width="67" height="27" text="Procesos"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="138" x="258" y="240" width="663" height="576" measuredWidth="663" measuredHeight="576" foreground="#666666">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="139" x="291" y="274" width="110" text="Procesos Abiertos" measuredWidth="110" measuredHeight="25" foreground="#134f5c">
+    <font size="10" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="140" x="541" y="775" width="33" text="Mas" measuredWidth="33" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="141" x="291" y="303" width="606" measuredWidth="606" measuredHeight="6" foreground="#666666"/>
+  <widgets xsi:type="model:HLine" id="142" x="291" y="407" width="606" measuredWidth="606" measuredHeight="6" foreground="#6fa8dc"/>
+  <widgets xsi:type="model:HLine" id="143" x="284" y="511" width="613" measuredWidth="613" measuredHeight="6" foreground="#6fa8dc"/>
+  <widgets xsi:type="model:HLine" id="144" x="284" y="623" width="608" measuredWidth="608" measuredHeight="6" foreground="#6fa8dc"/>
+  <widgets xsi:type="model:Label" id="145" x="522" y="650" width="31" text="Fecha" measuredWidth="31" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="146" x="291" y="679" width="110" text="Madrid,España" measuredWidth="110" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="147" x="561" y="650" width="58" text="11/12/2011" measuredWidth="58" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="148" x="681" y="650" width="77" text="N° de inscritos:" measuredWidth="77" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="149" x="291" y="711" width="82" text="Ver detalle" measuredWidth="82" measuredHeight="25" foreground="#3d85c6">
+    <font size="10" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="150" x="291" y="655" width="132" text="Analista Programador .Net" measuredWidth="132" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="151" x="771" y="650" width="15" text="24" measuredWidth="15" measuredHeight="25" foreground="#444444">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="152" x="522" y="530" width="31" text="Fecha" measuredWidth="31" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="153" x="291" y="559" width="110" text="Madrid,España" measuredWidth="110" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="154" x="561" y="530" width="58" text="11/12/2011" measuredWidth="58" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="155" x="681" y="530" width="77" text="N° de inscritos:" measuredWidth="77" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="156" x="291" y="591" width="90" text="Ver detalle" measuredWidth="90" measuredHeight="25" foreground="#3d85c6">
+    <font size="10" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="157" x="291" y="535" width="132" text="Analista Programador .Net" measuredWidth="132" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="158" x="771" y="530" width="15" text="24" measuredWidth="15" measuredHeight="25" foreground="#444444">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="159" x="522" y="418" width="31" text="Fecha" measuredWidth="31" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="160" x="291" y="447" width="90" text="Madrid,España" measuredWidth="90" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="161" x="561" y="418" width="58" text="11/12/2011" measuredWidth="58" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="162" x="681" y="418" width="77" text="N° de inscritos:" measuredWidth="77" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="163" x="291" y="479" width="76" text="Ver detalle" measuredWidth="76" measuredHeight="25" foreground="#3d85c6">
+    <font size="10" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="164" x="291" y="423" width="132" text="Analista Programador .Net" measuredWidth="132" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="165" x="771" y="418" width="15" text="24" measuredWidth="15" measuredHeight="25" foreground="#444444">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="166" x="528" y="314" width="31" text="Fecha" measuredWidth="31" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="167" x="297" y="343" width="104" text="Madrid,España" measuredWidth="104" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="168" x="561" y="314" width="58" text="11/12/2011" measuredWidth="58" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="169" x="688" y="314" width="77" text="N° de inscritos:" measuredWidth="77" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="170" x="297" y="375" width="76" text="Ver detalle" measuredWidth="76" measuredHeight="25" foreground="#3d85c6">
+    <font size="10" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="171" x="297" y="319" width="132" text="Analista Programador .Net" measuredWidth="132" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="172" x="780" y="314" width="15" text="24" measuredWidth="15" measuredHeight="25" foreground="#444444">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="173" x="813" y="264" width="79" text="Crear Proceso" measuredWidth="79" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

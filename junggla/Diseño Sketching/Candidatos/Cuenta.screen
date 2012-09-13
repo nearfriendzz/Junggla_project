@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="91" x="14" y="23" width="1145" height="873" text="Browser&#xA;http://..." measuredWidth="1145" measuredHeight="873"/>
+  <widgets xsi:type="model:HLine" id="92" x="14" y="848" width="1145" measuredWidth="1145" measuredHeight="6"/>
+  <widgets xsi:type="model:LinkBar" id="93" x="813" y="863" text="Acerca de,Blog,API,Privacidad, Terminos, Ayuda" measuredWidth="336" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="54" height="23" text="Acerca de"/>
+    <items x="72" y="0" width="26" height="23" text="Blog"/>
+    <items x="116" y="0" width="20" height="23" text="API"/>
+    <items x="154" y="0" width="57" height="23" text="Privacidad"/>
+    <items x="229" y="0" width="52" height="23" text="Terminos"/>
+    <items x="299" y="0" width="36" height="23" text="Ayuda"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="94" x="14" y="76" width="1141" height="41" measuredWidth="1141" measuredHeight="41" background="#6fa8dc" foreground="#6fa8dc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="95" x="456" y="116" width="133" height="28" measuredWidth="133" measuredHeight="28" src="../logoblanco.png"/>
+  <widgets xsi:type="model:Label" id="96" x="380" y="85" text="Home" measuredWidth="39" measuredHeight="23" foreground="#f9cb9c">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="97" x="436" y="85" text="Perfil" measuredWidth="35" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="98" x="483" y="85" text="Estadistica" measuredWidth="62" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="99" x="565" y="85" text="Busqueda" measuredWidth="59" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="100" x="920" y="85" text="Cuenta" measuredWidth="44" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="101" x="972" y="85" text="Salir" measuredWidth="29" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="102" x="14" y="116" width="1141" height="733" measuredWidth="1141" measuredHeight="733" background="#f3f3f3" foreground="#f3f3f3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="189" x="208" y="81" width="133" height="31" measuredWidth="133" measuredHeight="31" src="../logoevenzon.png"/>
+  <widgets xsi:type="model:Rectangle" id="191" x="296" y="200" width="345" height="105" measuredWidth="345" measuredHeight="105" background="#eeeeee" foreground="#cccccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="192" x="645" y="200" width="252" height="105" measuredWidth="252" measuredHeight="105" background="#eeeeee" foreground="#999999"/>
+  <widgets xsi:type="model:Label" id="193" x="429" y="224" text="Robinson" measuredWidth="60" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="194" x="309" y="224" width="121" text="Nombre" measuredWidth="121" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="199" x="309" y="192" width="186" text="Informacion de la Cuenta" measuredWidth="186" measuredHeight="20" foreground="#3d85c6">
+    <font size="11" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="200" x="429" y="248" text="hernandez Martinez" measuredWidth="121" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="201" x="309" y="248" width="121" text="Apellidos" measuredWidth="121" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="202" x="309" y="272" width="121" text="Email" measuredWidth="121" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="203" x="429" y="272" text="Tecnosoft_cnin@hotmail.com" measuredWidth="173" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="204" x="608" y="203" text="Edit" measuredWidth="23" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="212" x="721" y="262" width="115" text="Cambiar Contraseña" measuredWidth="115" measuredHeight="23" foreground="#134f5c">
+    <font size="9" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="213" x="664" y="235" width="41" height="36" measuredWidth="41" measuredHeight="36" src="../1325250543_key.png"/>
+  <widgets xsi:type="model:Text" id="216" x="721" y="222" width="192" height="43" text="Cambia tu contraseña &#xD;&#xA;de acceso." measuredWidth="192" measuredHeight="43" foreground="#444444" dummyText="true">
+    <font size="10" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="220" x="299" y="311" width="342" height="62" measuredWidth="342" measuredHeight="62" background="#eeeeee" foreground="#999999"/>
+  <widgets xsi:type="model:Image" id="221" x="436" y="342" width="134" measuredWidth="134" measuredHeight="21" src="../2010A6ConnectWithTwitterIcon.png"/>
+  <widgets xsi:type="model:Image" id="222" x="436" y="318" width="134" height="20" measuredWidth="134" measuredHeight="20" src="../connect2.gif"/>
+  <widgets xsi:type="model:Text" id="223" x="309" y="320" width="192" height="43" text="Publicar en" measuredWidth="192" measuredHeight="43" foreground="#444444" dummyText="true">
+    <font size="10" bold="false"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

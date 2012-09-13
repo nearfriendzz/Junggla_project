@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="AltaUsuario">
+  <useCaseModelRootMoniker Id="458c9b08-0d9b-4f8d-8cd2-872a477f88b3" />
+  <nestedChildShapes>
+    <actorShape Id="75fd9f5e-5e48-4d9a-9ef5-ebc2d6b1ac71" absoluteBounds="0.5, 0.75, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="df814ebf-46d5-4133-83b8-0fd3ebb6fd28" LastKnownName="Actor2" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="49985c74-3c03-4d7f-a160-d0cf9a711fa7" absoluteBounds="1.625, 0.875, 1.25, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="7aadc89d-bbb3-4f65-8782-eb7c32ef35fd" LastKnownName="Correo con url alta formulario usuario" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1 : 1.03125); (1.64366093740917 : 1.11170761717615)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="f84bc9c0-9e5e-4f9c-9722-e924e9c8870c" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="75fd9f5e-5e48-4d9a-9ef5-ebc2d6b1ac71" />
+        <useCaseShapeMoniker Id="49985c74-3c03-4d7f-a160-d0cf9a711fa7" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="9d7ccd79-1d51-4ee6-a25a-faada08955f6" absoluteBounds="3.625, 0.875, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="832d4db7-86cc-4662-bc0c-01f7811235fb" LastKnownName="Formulario Alta" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(2.87361572366038 : 1.16671280921132); (3.6261074210717 : 1.14162975263094)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="d207a3ee-476f-42fa-b355-550b50167f24" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="49985c74-3c03-4d7f-a160-d0cf9a711fa7" />
+        <useCaseShapeMoniker Id="9d7ccd79-1d51-4ee6-a25a-faada08955f6" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="b6b6e424-3d18-4ff6-8b63-c2b1b0b4750a" absoluteBounds="5.125, 0.875, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="854ffa8c-e929-4d41-95d8-b11d44169964" LastKnownName="Mensaje confirmacion alta" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(4.61819696191607 : 1.16609974682634); (5.12805813266319 : 1.20858817772193)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="f797d06d-4023-4070-a2d3-f6eaf194b791" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="9d7ccd79-1d51-4ee6-a25a-faada08955f6" />
+        <useCaseShapeMoniker Id="b6b6e424-3d18-4ff6-8b63-c2b1b0b4750a" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="b3cb6348-7d52-4a1d-8cf6-f213ce62ba0d" absoluteBounds="5.125, 2.125, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="4d5fd25a-1296-48bb-9446-c4a61ee03937" LastKnownName="inicio session usuario" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(5.625 : 1.625); (5.625 : 2.125)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="2396d879-b8f9-4fd6-8870-8d8f99340f30" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="b6b6e424-3d18-4ff6-8b63-c2b1b0b4750a" />
+        <useCaseShapeMoniker Id="b3cb6348-7d52-4a1d-8cf6-f213ce62ba0d" />
+      </nodes>
+    </useCaseAssociationConnector>
+  </nestedChildShapes>
+</useCaseDiagram>

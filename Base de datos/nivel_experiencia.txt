@@ -1,0 +1,10 @@
+Descripcion
+(Indicar)
+Menos de 1 año
+Entre 1 y 2 años
+Entre 2 y 3 años
+Entre 3 y 5 años
+Más de 5 años
+
+
+

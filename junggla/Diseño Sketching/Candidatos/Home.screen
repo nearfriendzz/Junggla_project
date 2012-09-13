@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="14" y="23" width="1145" height="873" text="Browser&#xA;http://..." measuredWidth="1145" measuredHeight="873"/>
+  <widgets xsi:type="model:HLine" id="9" x="14" y="848" width="1145" measuredWidth="1145" measuredHeight="6"/>
+  <widgets xsi:type="model:LinkBar" id="21" x="813" y="863" text="Acerca de,Blog,API,Privacidad, Terminos, Ayuda" measuredWidth="336" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="54" height="23" text="Acerca de"/>
+    <items x="72" y="0" width="26" height="23" text="Blog"/>
+    <items x="116" y="0" width="20" height="23" text="API"/>
+    <items x="154" y="0" width="57" height="23" text="Privacidad"/>
+    <items x="229" y="0" width="52" height="23" text="Terminos"/>
+    <items x="299" y="0" width="36" height="23" text="Ayuda"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="47" x="14" y="76" width="1141" height="41" measuredWidth="1141" measuredHeight="41" background="#6fa8dc" foreground="#6fa8dc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="48" x="456" y="116" width="133" height="28" measuredWidth="133" measuredHeight="28" src="../logoblanco.png"/>
+  <widgets xsi:type="model:Label" id="49" x="380" y="85" text="Home" measuredWidth="39" measuredHeight="23" foreground="#f9cb9c">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="50" x="436" y="85" text="Perfil" measuredWidth="35" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="51" x="483" y="85" text="Estadistica" measuredWidth="62" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="52" x="565" y="85" text="Busqueda" measuredWidth="59" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="53" x="920" y="85" text="Cuenta" measuredWidth="44" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="54" x="972" y="85" text="Salir" measuredWidth="29" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="155" x="14" y="116" width="1141" height="733" measuredWidth="1141" measuredHeight="733" background="#f3f3f3" foreground="#f3f3f3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="156" x="210" y="280" width="537" height="377" measuredWidth="537" measuredHeight="377" foreground="#cccccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="157" x="317" y="250" width="287" text="Robinson Hernandez" measuredWidth="287" measuredHeight="29" foreground="#134f5c">
+    <font size="12" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="158" x="440" y="619" width="31" height="18" text="1" measuredWidth="31" measuredHeight="18">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="159" x="297" y="328" text="a publicado un proceso" measuredWidth="144" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="160" x="250" y="352" text="Madrid,España" measuredWidth="93" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="161" x="440" y="328" text="Analista php y mysql" measuredWidth="125" measuredHeight="25" foreground="#3d85c6">
+    <font size="10" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="162" x="250" y="328" text="Google" measuredWidth="48" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="163" x="564" y="328" text="4 horas" measuredWidth="49" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="164" x="210" y="177" width="101" height="102" measuredWidth="101" measuredHeight="102" foreground="#cccccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="165" x="214" y="182" width="91" height="91" measuredWidth="91" measuredHeight="91" src="../fotoavatar.png"/>
+  <widgets xsi:type="model:Rectangle" id="166" x="214" y="282" width="530" height="31" measuredWidth="530" measuredHeight="31" background="#eeeeee" foreground="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="167" x="603" y="285" width="140" text="Actividades Recientes" measuredWidth="140" measuredHeight="25" foreground="#999999">
+    <font size="10" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="168" x="762" y="194" width="221" height="79" measuredWidth="221" measuredHeight="79" foreground="#999999">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="169" x="297" y="384" text="a publicado un proceso" measuredWidth="144" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="170" x="250" y="408" text="Madrid,España" measuredWidth="93" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="171" x="440" y="384" text="Analista php y mysql" measuredWidth="125" measuredHeight="25" foreground="#3d85c6">
+    <font size="10" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="172" x="250" y="384" text="Google" measuredWidth="48" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="173" x="564" y="384" text="4 horas" measuredWidth="49" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="174" x="297" y="432" text="a publicado un proceso" measuredWidth="144" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="175" x="250" y="456" text="Madrid,España" measuredWidth="93" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="176" x="440" y="432" text="Analista php y mysql" measuredWidth="125" measuredHeight="25" foreground="#3d85c6">
+    <font size="10" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="177" x="250" y="432" text="Google" measuredWidth="48" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="178" x="564" y="432" text="4 horas" measuredWidth="49" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="179" x="297" y="488" text="a publicado un proceso" measuredWidth="144" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="180" x="250" y="512" text="Madrid,España" measuredWidth="93" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="181" x="440" y="488" text="Analista php y mysql" measuredWidth="125" measuredHeight="25" foreground="#3d85c6">
+    <font size="10" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="182" x="250" y="488" text="Google" measuredWidth="48" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="183" x="564" y="488" text="4 horas" measuredWidth="49" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="184" x="297" y="544" text="a publicado un proceso" measuredWidth="144" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="185" x="250" y="568" text="Madrid,España" measuredWidth="93" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="186" x="440" y="544" text="Analista php y mysql" measuredWidth="125" measuredHeight="25" foreground="#3d85c6">
+    <font size="10" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="187" x="250" y="544" text="Google" measuredWidth="48" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="188" x="564" y="544" text="4 horas" measuredWidth="49" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="189" x="762" y="312" width="221" height="426" measuredWidth="221" measuredHeight="426" foreground="#cccccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="190" x="210" y="667" width="534" height="168" measuredWidth="534" measuredHeight="168" foreground="#cccccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="191" x="214" y="672" width="525" height="31" measuredWidth="525" measuredHeight="31" background="#eeeeee" foreground="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="192" x="598" y="675" width="145" text="Entrevistas Pendientes" measuredWidth="145" measuredHeight="25" foreground="#999999">
+    <font size="10" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="193" x="317" y="710" text="14:30" measuredWidth="36" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="194" x="220" y="710" text="15/12/2011" measuredWidth="71" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="195" x="554" y="710" text="Google Inc." measuredWidth="71" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="196" x="390" y="706" width="138" height="33" text="C/Moratala, 5 Planta 2B&#xD;&#xA;28041 , madrid , España" measuredWidth="138" measuredHeight="33" foreground="#3d85c6" dummyText="true">
+    <font underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="197" x="666" y="710" text="Confirmada" measuredWidth="73" measuredHeight="25">
+    <font size="10" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="198" x="317" y="746" text="14:30" measuredWidth="36" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="199" x="220" y="746" text="15/12/2011" measuredWidth="71" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="200" x="554" y="752" text="MICROSOFT" measuredWidth="76" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="201" x="390" y="742" width="138" height="45" text="C/Moratala Luis benta, 5 Planta 2B 28041 , madrid , España" measuredWidth="138" measuredHeight="45" foreground="#3d85c6" dummyText="true">
+    <font underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="202" x="666" y="752" text="Pendiente" measuredWidth="62" measuredHeight="25" foreground="#660000">
+    <font size="10" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="203" x="317" y="798" text="14:30" measuredWidth="36" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="204" x="220" y="798" text="15/12/2011" measuredWidth="71" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="205" x="554" y="798" text="Apple Inc." measuredWidth="62" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="206" x="390" y="794" width="138" height="33" text="C/Moratala, 5 Planta 2B&#xD;&#xA;28041 , madrid , España" measuredWidth="138" measuredHeight="33" foreground="#3d85c6" dummyText="true">
+    <font underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="207" x="666" y="798" text="Confirmada" measuredWidth="73" measuredHeight="25">
+    <font size="10" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="208" x="762" y="288" width="140" text="Empresas Sugeridas" measuredWidth="140" measuredHeight="25" foreground="#999999">
+    <font size="10" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="209" x="909" y="330" width="57" height="21" text="Seguir" measuredWidth="57" measuredHeight="21" background="#eeeeee" foreground="#cccccc" border="solid-rounded">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="210" x="789" y="316" width="95" text="Amazon Inc." measuredWidth="95" measuredHeight="25" foreground="#0b5394">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="211" x="789" y="340" text="Madrid,España" measuredWidth="83" measuredHeight="23" foreground="#999999">
+    <font size="9"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="212" x="909" y="392" width="57" height="21" text="Seguir" measuredWidth="57" measuredHeight="21" background="#eeeeee" foreground="#cccccc" border="solid-rounded">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="213" x="789" y="378" width="95" text="Facebook" measuredWidth="95" measuredHeight="25" foreground="#0b5394">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="214" x="789" y="402" text="Madrid,España" measuredWidth="83" measuredHeight="23" foreground="#999999">
+    <font size="9"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="215" x="909" y="456" width="57" height="21" text="Seguir" measuredWidth="57" measuredHeight="21" background="#eeeeee" foreground="#cccccc" border="solid-rounded">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="216" x="789" y="442" width="95" text="Google" measuredWidth="95" measuredHeight="25" foreground="#0b5394">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="217" x="789" y="466" text="Madrid,España" measuredWidth="83" measuredHeight="23" foreground="#999999">
+    <font size="9"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="218" x="909" y="512" width="57" height="21" text="Seguir" measuredWidth="57" measuredHeight="21" background="#eeeeee" foreground="#cccccc" border="solid-rounded">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="219" x="789" y="498" width="95" text="Everis" measuredWidth="95" measuredHeight="25" foreground="#0b5394">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="220" x="789" y="522" text="Madrid,España" measuredWidth="83" measuredHeight="23" foreground="#999999">
+    <font size="9"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="221" x="909" y="568" width="57" height="21" text="Seguir" measuredWidth="57" measuredHeight="21" background="#eeeeee" foreground="#cccccc" border="solid-rounded">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="222" x="789" y="554" width="95" text="Indra" measuredWidth="95" measuredHeight="25" foreground="#0b5394">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="223" x="789" y="578" text="Madrid,España" measuredWidth="83" measuredHeight="23" foreground="#999999">
+    <font size="9"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="224" x="909" y="629" width="57" height="21" text="Seguir" measuredWidth="57" measuredHeight="21" background="#eeeeee" foreground="#cccccc" border="solid-rounded">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="225" x="789" y="615" width="95" text="Microsoft" measuredWidth="95" measuredHeight="25" foreground="#0b5394">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="226" x="789" y="639" text="Madrid,España" measuredWidth="83" measuredHeight="23" foreground="#999999">
+    <font size="9"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="227" x="909" y="696" width="57" height="21" text="Seguir" measuredWidth="57" measuredHeight="21" background="#eeeeee" foreground="#cccccc" border="solid-rounded">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="228" x="789" y="682" width="95" text="Foursquare" measuredWidth="95" measuredHeight="25" foreground="#0b5394">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="229" x="789" y="706" text="Madrid,España" measuredWidth="83" measuredHeight="23" foreground="#999999">
+    <font size="9"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="230" x="762" y="170" width="140" text="Resumen" measuredWidth="140" measuredHeight="25" foreground="#999999">
+    <font size="10" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="231" x="220" y="182" width="84" height="91" measuredWidth="84" measuredHeight="91" src="img/profile_image.jpg"/>
+  <widgets xsi:type="model:Label" id="232" x="777" y="204" width="155" text="Hoy han visitado tu Perfil" measuredWidth="155" measuredHeight="25" foreground="#6fa8dc">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="233" x="930" y="205" text="5" measuredWidth="11" measuredHeight="23" foreground="#0b5394">
+    <font size="9" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="234" x="871" y="225" width="60" text="Procesos" measuredWidth="60" measuredHeight="25" foreground="#6fa8dc">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="236" x="930" y="226" text="20" measuredWidth="17" measuredHeight="23" foreground="#0b5394">
+    <font size="9" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="237" x="853" y="248" width="78" text="Total Visitas" measuredWidth="78" measuredHeight="25" foreground="#6fa8dc">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="238" x="930" y="249" text="196" measuredWidth="23" measuredHeight="23" foreground="#999999">
+    <font size="9"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="240" x="762" y="752" width="221" height="81" measuredWidth="221" measuredHeight="81" foreground="#cccccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="241" x="869" y="790" measuredWidth="106" measuredHeight="29" src="img/logo-android-647f14e81c9aa5e544c54abccdeaf07d.png"/>
+  <widgets xsi:type="model:Image" id="242" x="871" y="757" measuredWidth="83" measuredHeight="29" src="img/logo-iphone-e0156e962b9f6cf488dacf4c3f011da0.png"/>
+  <widgets xsi:type="model:Text" id="245" x="772" y="759" width="97" height="36" text="Descarga nuestra&#xD;&#xA;aplicacion movil." measuredWidth="97" measuredHeight="36" foreground="#666666" dummyText="true">
+    <font size="8"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="246" x="208" y="81" width="133" height="31" measuredWidth="133" measuredHeight="31" src="../logoevenzon.png"/>
+  <widgets xsi:type="model:Button" id="247" x="470" y="619" width="31" height="18" text="2" measuredWidth="31" measuredHeight="18">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="248" x="500" y="619" width="31" height="18" text="3" measuredWidth="31" measuredHeight="18">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="2" x="14" y="23" width="1145" height="873" text="Browser&#xA;http://..." measuredWidth="1145" measuredHeight="873"/>
+  <widgets xsi:type="model:HLine" id="3" x="14" y="848" width="1145" measuredWidth="1145" measuredHeight="6"/>
+  <widgets xsi:type="model:LinkBar" id="4" x="813" y="863" text="Acerca de,Blog,API,Privacidad, Terminos, Ayuda" measuredWidth="336" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="54" height="23" text="Acerca de"/>
+    <items x="72" y="0" width="26" height="23" text="Blog"/>
+    <items x="116" y="0" width="20" height="23" text="API"/>
+    <items x="154" y="0" width="57" height="23" text="Privacidad"/>
+    <items x="229" y="0" width="52" height="23" text="Terminos"/>
+    <items x="299" y="0" width="36" height="23" text="Ayuda"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="5" x="14" y="76" width="1141" height="41" measuredWidth="1141" measuredHeight="41" background="#000000">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="6" x="456" y="116" width="133" height="28" measuredWidth="133" measuredHeight="28" src="../../logoblanco.png"/>
+  <widgets xsi:type="model:Label" id="7" x="380" y="85" text="Home" measuredWidth="39" measuredHeight="23" foreground="#f9cb9c">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="436" y="85" text="Busqueda" measuredWidth="59" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="512" y="85" text="Estadistica" measuredWidth="62" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="588" y="85" text="Colección" measuredWidth="58" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="920" y="85" text="Cuenta" measuredWidth="44" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="972" y="85" text="Salir" measuredWidth="29" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="13" x="14" y="116" width="1141" height="733" measuredWidth="1141" measuredHeight="733" background="#f3f3f3" foreground="#f3f3f3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="100" x="208" y="81" width="133" height="31" measuredWidth="133" measuredHeight="31" src="../../logoevenzon.png"/>
+  <widgets xsi:type="model:Tabs" id="101" x="607" y="219" text="Actividades Recientes,Perfil, Procesos" measuredWidth="250" measuredHeight="27" selection="0">
+    <items x="1" y="0" width="134" height="27" text="Actividades Recientes"/>
+    <items x="135" y="0" width="47" height="27" text="Perfil"/>
+    <items x="182" y="0" width="67" height="27" text="Procesos"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="102" x="232" y="245" width="625" height="552" measuredWidth="625" measuredHeight="552" foreground="#999999">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="103" x="328" y="280" width="121" text="Robinson Hernandez" measuredWidth="121" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="104" x="328" y="303" text="ha aplicado a tu oferta de" measuredWidth="157" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="105" x="484" y="303" text="Analista Programador .net" measuredWidth="158" measuredHeight="25" foreground="#3d85c6">
+    <font size="10" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="106" x="641" y="303" text="de Madrid,España" measuredWidth="112" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="107" x="752" y="303" text="4 horas" measuredWidth="49" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="108" x="552" y="756" text="Mas" measuredWidth="42" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="109" x="272" y="280" width="49" height="47" measuredWidth="49" measuredHeight="47" src="../../candidates_avatars_profile.png"/>
+  <widgets xsi:type="model:Image" id="110" x="240" y="177" width="137" height="52" measuredWidth="137" measuredHeight="52" src="../../Candidatos/img/google.jpg"/>
+  <widgets xsi:type="model:Label" id="111" x="328" y="336" width="121" text="Robinson Hernandez" measuredWidth="121" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="112" x="328" y="359" text="se ha aplicado a tu oferta de" measuredWidth="174" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="113" x="501" y="359" text="Analista Programador .net" measuredWidth="158" measuredHeight="25" foreground="#3d85c6">
+    <font size="10" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="114" x="664" y="359" text="de Madrid,España" measuredWidth="112" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="115" x="775" y="359" text="4 horas" measuredWidth="49" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="116" x="272" y="336" width="49" height="47" measuredWidth="49" measuredHeight="47" src="../../candidates_avatars_profile.png"/>
+  <widgets xsi:type="model:Label" id="117" x="328" y="400" width="121" text="Robinson Hernandez" measuredWidth="121" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="118" x="328" y="423" text="se ha aplicado a tu oferta de" measuredWidth="174" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="119" x="501" y="423" text="Analista Programador .net" measuredWidth="158" measuredHeight="25" foreground="#3d85c6">
+    <font size="10" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="120" x="664" y="423" text="de Madrid,España" measuredWidth="112" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="121" x="775" y="423" text="4 horas" measuredWidth="49" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="122" x="272" y="400" width="49" height="47" measuredWidth="49" measuredHeight="47" src="../../candidates_avatars_profile.png"/>
+  <widgets xsi:type="model:Label" id="123" x="328" y="480" width="121" text="Robinson Hernandez" measuredWidth="121" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="124" x="328" y="503" text="se ha aplicado a tu oferta de" measuredWidth="174" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="125" x="501" y="503" text="Analista Programador .net" measuredWidth="158" measuredHeight="25" foreground="#3d85c6">
+    <font size="10" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="126" x="664" y="503" text="de Madrid,España" measuredWidth="112" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="127" x="775" y="503" text="4 horas" measuredWidth="49" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="128" x="272" y="480" width="49" height="47" measuredWidth="49" measuredHeight="47" src="../../candidates_avatars_profile.png"/>
+  <widgets xsi:type="model:Label" id="129" x="328" y="544" width="121" text="Robinson Hernandez" measuredWidth="121" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="130" x="328" y="567" text="se ha aplicado a tu oferta de" measuredWidth="174" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="131" x="501" y="567" text="Analista Programador .net" measuredWidth="158" measuredHeight="25" foreground="#3d85c6">
+    <font size="10" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="132" x="664" y="567" text="de Madrid,España" measuredWidth="112" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="133" x="775" y="567" text="4 horas" measuredWidth="49" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="134" x="272" y="544" width="49" height="47" measuredWidth="49" measuredHeight="47" src="../../candidates_avatars_profile.png"/>
+  <widgets xsi:type="model:Label" id="135" x="328" y="608" width="121" text="Robinson Hernandez" measuredWidth="121" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="136" x="328" y="631" text="se ha aplicado a tu oferta de" measuredWidth="174" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="137" x="501" y="631" text="Analista Programador .net" measuredWidth="158" measuredHeight="25" foreground="#3d85c6">
+    <font size="10" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="138" x="664" y="631" text="de Madrid,España" measuredWidth="112" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="139" x="775" y="631" text="4 horas" measuredWidth="49" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="140" x="272" y="608" width="49" height="47" measuredWidth="49" measuredHeight="47" src="../../candidates_avatars_profile.png"/>
+  <widgets xsi:type="model:Label" id="141" x="328" y="680" width="121" text="Robinson Hernandez" measuredWidth="121" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="142" x="328" y="703" text="se ha aplicado a tu oferta de" measuredWidth="174" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="143" x="501" y="703" text="Analista Programador .net" measuredWidth="158" measuredHeight="25" foreground="#3d85c6">
+    <font size="10" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="144" x="664" y="703" text="de Madrid,España" measuredWidth="112" measuredHeight="25">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="145" x="775" y="703" text="4 horas" measuredWidth="49" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="146" x="272" y="680" width="49" height="47" measuredWidth="49" measuredHeight="47" src="../../candidates_avatars_profile.png"/>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

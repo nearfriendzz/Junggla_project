@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="d7af1319-465b-4a4c-be72-a5930ad2a25d" name="Invitacion" linkedPackageId="985adc0b-22d1-4206-858d-10f31fcd3139" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="36112c10-1e7e-4b2c-95b8-98ca2777b4f4">
+      <profileInstance Id="6b9ebe56-d814-4118-869d-06b65a4e140a" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="3330fc2e-426e-473c-927e-1109283010b2">
+      <profileInstance Id="f16f7b07-4e19-4205-adca-c77d40b78ffd" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="3fcd6fb3-29d1-449a-8914-2adff9b41057" name="Actor1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="83e6f7af-72d5-448d-a408-4153c5b90ae9" />
+        <suppliersInternal>
+          <dependency Id="cdae3127-990f-4251-aaf1-71916fb8a4de">
+            <useCaseMoniker Id="fbc5a0c4-ceb6-43b9-b1b9-d4bc59ed655c" LastKnownName="Invitacion" />
+            <elementDefinition Id="d391ee9e-e5bc-4193-b911-0f1d3fffdc0f" />
+          </dependency>
+        </suppliersInternal>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="fbc5a0c4-ceb6-43b9-b1b9-d4bc59ed655c" name="Invitacion" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4bd08787-6b50-4079-91a6-96d14673f024" />
+        <suppliersInternal>
+          <dependency Id="f2de36d4-204e-42dd-904b-7ada45592574">
+            <useCaseMoniker Id="9498dbff-ab39-4447-bae5-e046559d0fe0" LastKnownName="Confirmar invitaciones" />
+            <elementDefinition Id="7e8bfa78-9cf0-4ffe-81e9-5eca587cd658" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9498dbff-ab39-4447-bae5-e046559d0fe0" name="Confirmar invitaciones" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="11301db5-a3ba-43e1-9889-b689e8f9c93a" />
+        <suppliersInternal>
+          <dependency Id="5b0fd350-aa6f-4ecb-baf5-8f768ae8f805">
+            <useCaseMoniker Id="1cb4ddcc-9809-4596-9291-edce57a4452a" LastKnownName="Enviar Invitaciones" />
+            <elementDefinition Id="4ed4efde-9428-4a02-807d-98474ee2f375" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1cb4ddcc-9809-4596-9291-edce57a4452a" name="Enviar Invitaciones" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4406eeaf-70ea-4854-9fb3-19b4f06ba241" />
+        <targetEnds>
+          <association Id="87ba0c37-1418-4f90-91bd-be4c005a562c" isDerived="false" sourceEndRoleName="Enviar Invitaciones" targetEndRoleName="Correo Electronico url registro" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="de758e4c-ef9d-444a-86f6-5748d9a9934b" LastKnownName="Correo Electronico url registro" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="46eaf35d-c82b-4a4e-a890-d3af96311055" name="Enviar Invitaciones" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0e6e4aac-9a8c-4152-9dee-3da9727ff2e0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c3d6f449-1cb8-45f2-9268-8605be6058a3" name="Correo Electronico url registro" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5d3b2a7e-217b-4159-8cbf-e612a74b938e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8ac5e71b-52d9-4aa4-866d-c3add9d64ed1" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="de758e4c-ef9d-444a-86f6-5748d9a9934b" name="Correo Electronico url registro" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="52680bbe-8197-49e5-b52f-e2fa2f6fd5af" />
+        <targetEnds>
+          <association Id="b66dc560-1e1e-4c80-8fa5-424580850358" isDerived="false" sourceEndRoleName="Correo Electronico url registro" targetEndRoleName="Actor1" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="3fcd6fb3-29d1-449a-8914-2adff9b41057" LastKnownName="Actor1" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d7ffc553-7f6b-4cc2-9c6b-f319942487b7" name="Correo Electronico url registro" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0a5f93ae-d90f-49ca-b59e-6b9d5eb869fb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9af7ae38-7c4a-467e-8615-e4c13955be49" name="Actor1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b7d9d5f9-9743-44c5-b557-51dcce26e7ed" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="eec322fe-3578-4e3f-a1d2-4d904e22e7d4" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="985adc0b-22d1-4206-858d-10f31fcd3139" name="Modelo de Junggla">
+    <elementDefinition Id="a47be953-d4f5-419f-ad2f-fb087dc0d2a4" />
+  </package>
+</useCaseModelRoot>

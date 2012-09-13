@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="40" y="24" width="1145" height="873" text="Browser&#xA;http://..." measuredWidth="1145" measuredHeight="873"/>
+  <widgets xsi:type="model:HLine" id="2" x="40" y="848" width="1145" measuredWidth="1145" measuredHeight="6"/>
+  <widgets xsi:type="model:LinkBar" id="3" x="823" y="864" text="Acerca de,Blog,API,Privacidad, Terminos, Ayuda" measuredWidth="336" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="54" height="23" text="Acerca de"/>
+    <items x="72" y="0" width="26" height="23" text="Blog"/>
+    <items x="116" y="0" width="20" height="23" text="API"/>
+    <items x="154" y="0" width="57" height="23" text="Privacidad"/>
+    <items x="229" y="0" width="52" height="23" text="Terminos"/>
+    <items x="299" y="0" width="36" height="23" text="Ayuda"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="4" x="44" y="76" width="1141" height="41" measuredWidth="1141" measuredHeight="41" background="#6fa8dc" foreground="#6fa8dc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="380" y="85" text="Home" measuredWidth="39" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="436" y="85" text="Perfil" measuredWidth="35" measuredHeight="23" foreground="#f9cb9c">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="483" y="85" text="Estadistica" measuredWidth="62" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="565" y="85" text="Busqueda" measuredWidth="59" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="920" y="85" text="Cuenta" measuredWidth="44" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="972" y="85" text="Salir" measuredWidth="29" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="11" x="50" y="122" width="1131" height="738" measuredWidth="1131" measuredHeight="738" background="#f3f3f3" foreground="#f3f3f3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="12" x="370" y="317" width="553" height="524" measuredWidth="553" measuredHeight="524" foreground="#cccccc">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="13" x="381" y="240" width="287" text="Robinson Hernandez" measuredWidth="287" measuredHeight="29" foreground="#134f5c">
+    <font size="12" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="551" y="242" text="(26 Años)" measuredWidth="60" measuredHeight="25" foreground="#999999">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="15" x="381" y="266" text="Analista Programador Senior" measuredWidth="174" measuredHeight="25" foreground="#666666">
+    <font size="10" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="16" x="234" y="202" width="137" height="580" measuredWidth="137" measuredHeight="580" background="#eeeeee" foreground="#cccccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Tabs" id="17" x="592" y="289" text="Skill,Formacion,Experiencia,Idiomas,Adicional" measuredWidth="331" measuredHeight="27" selection="0">
+    <items x="1" y="0" width="41" height="27" text="Skill"/>
+    <items x="42" y="0" width="77" height="27" text="Formacion"/>
+    <items x="119" y="0" width="79" height="27" text="Experiencia"/>
+    <items x="198" y="0" width="62" height="27" text="Idiomas"/>
+    <items x="260" y="0" width="70" height="27" text="Adicional"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="18" x="251" y="214" width="101" height="102" measuredWidth="101" measuredHeight="102" foreground="#cccccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="19" x="255" y="219" width="91" height="91" measuredWidth="91" measuredHeight="91" src="../../fotoavatar.png"/>
+  <widgets xsi:type="model:Label" id="20" x="242" y="411" width="121" text="Ingenieria de Sistemas" measuredWidth="121" measuredHeight="21" foreground="#999999">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="21" x="242" y="395" width="121" text="Profesión" measuredWidth="121" measuredHeight="21" foreground="#444444">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="22" x="242" y="375" width="65" text="Hombre" measuredWidth="65" measuredHeight="21" foreground="#999999">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="23" x="242" y="359" width="121" text="Sexo" measuredWidth="121" measuredHeight="21" foreground="#444444">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="24" x="242" y="511" width="89" text="Localidad" measuredWidth="89" measuredHeight="21">
+    <font size="8" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="25" x="342" y="331" text="Edit" measuredWidth="25" measuredHeight="21" foreground="#3d85c6">
+    <font size="8" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="26" x="242" y="533" width="119" measuredWidth="119" measuredHeight="6" foreground="#444444"/>
+  <widgets xsi:type="model:Label" id="27" x="242" y="555" width="121" text="España" measuredWidth="121" measuredHeight="21" foreground="#999999">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="28" x="242" y="539" width="33" text="Pais" measuredWidth="33" measuredHeight="21" foreground="#444444">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="29" x="242" y="591" width="121" text="Madrid" measuredWidth="121" measuredHeight="21" foreground="#999999">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="30" x="242" y="575" width="121" text="Provincia" measuredWidth="121" measuredHeight="21" foreground="#444444">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="31" x="242" y="621" width="121" text="Republica Dominicana" measuredWidth="121" measuredHeight="21" foreground="#999999">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="32" x="242" y="605" width="121" text="Nacionalidad" measuredWidth="121" measuredHeight="21" foreground="#444444">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="33" x="242" y="351" width="119" measuredWidth="119" measuredHeight="6" foreground="#444444"/>
+  <widgets xsi:type="model:Label" id="34" x="242" y="331" width="89" text="Personal" measuredWidth="89" measuredHeight="21">
+    <font size="8" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="35" x="242" y="447" width="121" text="29/11/1986" measuredWidth="121" measuredHeight="21" foreground="#999999">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="36" x="242" y="431" width="121" text="Fecha Nacimiento" measuredWidth="121" measuredHeight="21" foreground="#444444">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="37" x="242" y="483" width="121" text="634692421" measuredWidth="121" measuredHeight="21" foreground="#999999">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="38" x="242" y="467" width="121" text="Telefono" measuredWidth="121" measuredHeight="21" foreground="#444444">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="39" x="342" y="511" text="Edit" measuredWidth="25" measuredHeight="21" foreground="#3d85c6">
+    <font size="8" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="40" x="562" y="268" text="Edit" measuredWidth="25" measuredHeight="21" foreground="#3d85c6">
+    <font size="8" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="41" x="255" y="220" width="91" height="91" measuredWidth="91" measuredHeight="91" src="../img/profile_image.jpg"/>
+  <widgets xsi:type="model:Rectangle" id="42" x="848" y="214" width="65" height="23" text="Distribuir" measuredWidth="65" measuredHeight="23" border="solid-rounded">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="43" x="720" y="214" width="121" height="23" text="Ver Como Empresa" measuredWidth="121" measuredHeight="23" border="solid-rounded">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="44" x="297" y="292" width="49" text="Cambiar" measuredWidth="49" measuredHeight="21" foreground="#b45f06">
+    <font size="8" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="45" x="792" y="342" width="113" height="24" text="Añadir Skill" measuredWidth="113" measuredHeight="24" background="#eeeeee" border="solid-rounded">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="46" x="381" y="392" width="516" height="56" measuredWidth="516" measuredHeight="56" background="#eeeeee" foreground="#999999"/>
+  <widgets xsi:type="model:Label" id="47" x="401" y="521" measuredWidth="5" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="49" x="391" y="409" width="112" text="Español" measuredWidth="112" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="50" x="832" y="411" text="Edit" measuredWidth="25" measuredHeight="21" foreground="#3d85c6">
+    <font size="8" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="52" x="705" y="409" text="Certificacion COTS" measuredWidth="112" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="53" x="381" y="451" width="516" height="56" measuredWidth="516" measuredHeight="56" background="#eeeeee" foreground="#999999"/>
+  <widgets xsi:type="model:Label" id="55" x="391" y="468" width="161" text="Ingles" measuredWidth="161" measuredHeight="25" foreground="#134f5c">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="56" x="832" y="470" text="Edit" measuredWidth="25" measuredHeight="21" foreground="#3d85c6">
+    <font size="8" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="58" x="746" y="468" text=".." measuredWidth="11" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="59" x="864" y="411" width="20" height="20" text="X" measuredWidth="20" measuredHeight="20" background="#999999" foreground="#cccccc" border="solid-rounded">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="60" x="864" y="468" width="20" height="20" text="X" measuredWidth="20" measuredHeight="20" background="#999999" foreground="#cccccc" border="solid-rounded">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="68" x="208" y="81" width="133" height="31" measuredWidth="133" measuredHeight="31" src="../../logoevenzon.png"/>
+  <widgets xsi:type="model:Label" id="69" x="483" y="407" text="Nativo /Bilingue" measuredWidth="97" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="70" x="512" y="465" text="Alto" measuredWidth="28" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="71" x="610" y="414" text="Mas de 5 años" measuredWidth="75" measuredHeight="15">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="72" x="610" y="470" text="Mas de 2 años" measuredWidth="75" measuredHeight="15">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

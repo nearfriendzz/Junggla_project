@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="89" x="40" y="24" width="1145" height="1289" text="Browser&#xA;http://..." measuredWidth="1145" measuredHeight="1289"/>
+  <widgets xsi:type="model:LinkBar" id="90" x="839" y="1280" text="Acerca de,Blog,API,Privacidad, Terminos, Ayuda" measuredWidth="336" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="54" height="23" text="Acerca de"/>
+    <items x="72" y="0" width="26" height="23" text="Blog"/>
+    <items x="116" y="0" width="20" height="23" text="API"/>
+    <items x="154" y="0" width="57" height="23" text="Privacidad"/>
+    <items x="229" y="0" width="52" height="23" text="Terminos"/>
+    <items x="299" y="0" width="36" height="23" text="Ayuda"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="91" x="44" y="76" width="1141" height="41" measuredWidth="1141" measuredHeight="41" background="#6fa8dc" foreground="#6fa8dc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="92" x="380" y="85" text="Home" measuredWidth="39" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="93" x="436" y="85" text="Perfil" measuredWidth="35" measuredHeight="23" foreground="#f9cb9c">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="94" x="483" y="85" text="Estadistica" measuredWidth="62" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="95" x="565" y="85" text="Busqueda" measuredWidth="59" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="96" x="920" y="85" text="Cuenta" measuredWidth="44" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="97" x="972" y="85" text="Salir" measuredWidth="29" measuredHeight="23" foreground="#eeeeee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="98" x="50" y="128" width="1131" height="1134" measuredWidth="1131" measuredHeight="1134" background="#f3f3f3" foreground="#f3f3f3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="99" x="368" y="176" width="553" height="1073" measuredWidth="553" measuredHeight="1073" foreground="#cccccc">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="100" x="378" y="187" width="230" text="Analista Programador Java" measuredWidth="230" measuredHeight="29" foreground="#134f5c">
+    <font size="12" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="103" x="232" y="176" width="137" height="580" measuredWidth="137" measuredHeight="580" background="#eeeeee" foreground="#cccccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="105" x="240" y="273" width="121" text="Duracion Determinada" measuredWidth="121" measuredHeight="21" foreground="#999999">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="106" x="240" y="257" width="121" text="Tipo Contrato" measuredWidth="121" measuredHeight="21" foreground="#444444">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="107" x="240" y="238" width="65" text="Completa" measuredWidth="65" measuredHeight="21" foreground="#999999">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="108" x="240" y="222" width="121" text="Jornada Laboral" measuredWidth="121" measuredHeight="21" foreground="#444444">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="109" x="240" y="332" width="89" text="Localidad" measuredWidth="89" measuredHeight="21">
+    <font size="8" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="110" x="240" y="347" width="119" measuredWidth="119" measuredHeight="6" foreground="#444444"/>
+  <widgets xsi:type="model:Label" id="111" x="240" y="376" width="121" text="España" measuredWidth="121" measuredHeight="21" foreground="#999999">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="112" x="240" y="360" width="33" text="Pais" measuredWidth="33" measuredHeight="21" foreground="#444444">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="113" x="240" y="412" width="121" text="Madrid" measuredWidth="121" measuredHeight="21" foreground="#999999">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="114" x="240" y="396" width="121" text="Provincia" measuredWidth="121" measuredHeight="21" foreground="#444444">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="117" x="240" y="213" width="119" measuredWidth="119" measuredHeight="6" foreground="#444444"/>
+  <widgets xsi:type="model:Label" id="118" x="240" y="193" width="89" text="Contrato" measuredWidth="89" measuredHeight="21">
+    <font size="8" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="120" x="208" y="81" width="133" height="31" measuredWidth="133" measuredHeight="31" src="../../logoevenzon.png"/>
+  <widgets xsi:type="model:HLine" id="121" x="378" y="244" width="533" measuredWidth="533" measuredHeight="6" foreground="#cccccc"/>
+  <widgets xsi:type="model:Button" id="122" x="697" y="200" width="210" height="31" text="Aplicar" measuredWidth="210" measuredHeight="31" background="#d9ead3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="123" x="585" y="1192" width="63" text="Compartir" measuredWidth="63" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="124" x="382" y="229" text="Empresa" measuredWidth="52" measuredHeight="23" foreground="#0b5394">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="126" x="552" y="257" text="Google" measuredWidth="45" measuredHeight="23" foreground="#444444">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="131" x="374" y="368" width="533" measuredWidth="533" measuredHeight="6" foreground="#cccccc"/>
+  <widgets xsi:type="model:Label" id="132" x="378" y="353" text="Descripcion" measuredWidth="70" measuredHeight="23" foreground="#0b5394">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="133" x="374" y="876" width="533" measuredWidth="533" measuredHeight="6" foreground="#cccccc"/>
+  <widgets xsi:type="model:Label" id="134" x="378" y="861" text="Requisitos" measuredWidth="62" measuredHeight="23" foreground="#0b5394">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="135" x="374" y="1100" width="533" measuredWidth="533" measuredHeight="6" foreground="#cccccc"/>
+  <widgets xsi:type="model:Label" id="136" x="378" y="1083" text="Idiomas" measuredWidth="48" measuredHeight="23" foreground="#0b5394">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="139" x="441" y="397" text="Analista Programador Java" measuredWidth="145" measuredHeight="23" foreground="#444444">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="140" x="441" y="378" text="Puesto Vacante" measuredWidth="91" measuredHeight="23" foreground="#444444">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="142" x="441" y="488" width="440" height="377" text="Everis Solutions es la unidad de negocio de la compañía que se encarga de prestar servicios de consultoría tecnológica fundamentalmente, a clientes de primer nivel dentro de un amplio campo de sectores: telecomunicaciones, banca, seguros, tecnología, energía, industria, sector público.&#xD;&#xA;Los proyectos de esta unidad de negocio se orientan al desarrollo de aplicaciones e implantación de sistemas abarcando las diferentes fases de planificación, diseño, construcción y mantenimiento de los sistemas información, procesos de negocio, arquitecturas e infraestructuras.&#xD;&#xA;&#xD;&#xA;Para nuestra línea de Tecnología buscamos Analistas con experiencia en el desarrollo y análisis de proyectos de Business Intelligence y conocimientos y experiencia en análisis, diseño y desarrollo de procesos ETL.&#xD;&#xA;&#xD;&#xA;Te ofrecemos:&#xD;&#xA;- Beneficios Sociales. &#xD;&#xA;- Salario en función de la valía y experiencia del candidato.&#xD;&#xA;&#xD;&#xA;Formar parte del equipo de profesionales de everis significa:&#xD;&#xA;- Integrarse en una compañía joven y dinámica de la que eres propietario desde el primer día. &#xD;&#xA;-Formar parte de un ambiente creativo y colaborador donde puedes disfrutar de la experiencia del trabajo en equipo para lograr el máximo valor para nuestros clientes. &#xD;&#xA;- Trabajar en una empresa en constante evolución, realizando un trabajo enriquecedor con grandes oportunidades de desarrollo profesional." measuredWidth="440" measuredHeight="377" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="144" x="447" y="908" text="Mas de 5 años" measuredWidth="80" measuredHeight="23" foreground="#444444">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="145" x="447" y="886" text="Experiencia" measuredWidth="69" measuredHeight="23" foreground="#444444">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="173" x="526" y="1133" text="Medio" measuredWidth="43" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="174" x="441" y="1133" text="Ingles" measuredWidth="31" measuredHeight="15">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="175" x="526" y="1107" text="Nativo /Bilingue" measuredWidth="97" measuredHeight="25" foreground="#666666">
+    <font size="10"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="176" x="441" y="1112" text="Español" measuredWidth="41" measuredHeight="15">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="177" x="447" y="995" width="434" height="89" text="Experiencia demostrable como analista en proyectos de desarrollo de Business Intelligence.&#xD;&#xA;Experiencia en programación con PL / SQL.&#xD;&#xA;Experiencia en diseño y desarrollo de procesos de extracción, transformación y carga mediante alguna herramienta ETL (PowerCenter, DataStage, Oracle DI, OWB, etc)." measuredWidth="434" measuredHeight="89" dummyText="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="178" x="240" y="308" text="Segun Valia" measuredWidth="66" measuredHeight="21" foreground="#999999">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="179" x="240" y="292" width="121" text="Salario" measuredWidth="121" measuredHeight="21" foreground="#444444">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="181" x="441" y="277" width="86" text="Nº Empleados" measuredWidth="86" measuredHeight="23" foreground="#0b5394">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="182" x="640" y="277" width="112" text="Actividad Empresa" measuredWidth="112" measuredHeight="23" foreground="#0b5394">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="183" x="552" y="277" width="84" text="100-500" measuredWidth="84" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="184" x="751" y="277" width="156" text="Actividades Informaticas" measuredWidth="156" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="185" x="441" y="257" width="54" text="Nombre" measuredWidth="54" measuredHeight="23" foreground="#0b5394">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="187" x="441" y="326" text="[ Descripcion de la Empresa ]" measuredWidth="155" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="188" x="441" y="299" width="123" text="Web de la empresa" measuredWidth="123" measuredHeight="23" foreground="#0b5394">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="189" x="552" y="299" width="95" text="[www.google.com...]" measuredWidth="95" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="190" x="441" y="426" width="151" text="Numero de Vacantes" measuredWidth="151" measuredHeight="23" foreground="#444444">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="191" x="441" y="444" text="1" measuredWidth="11" measuredHeight="23" foreground="#444444">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="192" x="441" y="466" text="Descripcion de la oferta" measuredWidth="137" measuredHeight="23" foreground="#444444">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="193" x="447" y="973" text="Requisitos mínimos" measuredWidth="112" measuredHeight="23" foreground="#444444">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="197" x="447" y="952" text="Grado Superior" measuredWidth="84" measuredHeight="23" foreground="#444444">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="198" x="447" y="930" text="Estudios" measuredWidth="50" measuredHeight="23" foreground="#444444">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="202" x="240" y="445" width="121" text="Madrid" measuredWidth="121" measuredHeight="21" foreground="#999999">
+    <font size="8" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="203" x="240" y="429" width="121" text="Poblacion" measuredWidth="121" measuredHeight="21" foreground="#444444">
+    <font size="8" underline="false"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>
