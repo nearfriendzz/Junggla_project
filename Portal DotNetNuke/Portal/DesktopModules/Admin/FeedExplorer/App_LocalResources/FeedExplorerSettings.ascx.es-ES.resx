@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="NewsExplorer">
+    <value xml:space="preserve">Explorador de novedades</value>
+  </data>
+  <data name="OpmlText">
+    <value xml:space="preserve">Texto OPML personalizado</value>
+  </data>
+  <data name="OpmlUrlFile">
+    <value xml:space="preserve">URL OPML personalizada o ruta de archivo</value>
+  </data>
+  <data name="plContentSource.Help">
+    <value xml:space="preserve">Fuente OPML que se usará para presentar la interfaz del explorador Feed</value>
+  </data>
+  <data name="plContentSource.Text">
+    <value xml:space="preserve">Fuente del contenido</value>
+  </data>
+  <data name="plCustomOpmlText.Help">
+    <value xml:space="preserve">Contorno personalizado OPML (incluir solamente los elementos del contorno de OPML; &lt;br/&gt;
+excluir los elementos estructurales de OPML). Solamente conveniente para los contornos pequeños; &lt;br&gt;
+para contornos más largos utilizar la opción de URL/archivo personalizado</value>
+  </data>
+  <data name="plCustomOpmlText.Text">
+    <value xml:space="preserve">Texto OPML personalizado</value>
+  </data>
+  <data name="plCustomOpmlUrlFile.Help">
+    <value xml:space="preserve">Una URL absoluta o ruta de archivo que contiene un contorno OPML personalizado para el explorador de Feed</value>
+  </data>
+  <data name="plCustomOpmlUrlFile.Text">
+    <value xml:space="preserve">URL OPML/archivo personalizado</value>
+  </data>
+  <data name="plTheme.Help">
+    <value xml:space="preserve">Tema de diseño para usar en la presentación del explorador</value>
+  </data>
+  <data name="plTheme.Text">
+    <value xml:space="preserve">Tema</value>
+  </data>
+  <data name="SolutionsExplorer">
+    <value xml:space="preserve">Explorador de soluciones de DotNetNuke</value>
+  </data>
+</root>

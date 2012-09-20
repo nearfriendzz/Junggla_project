@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApproveContent.Action">
+    <value xml:space="preserve">Aprobar</value>
+  </data>
+  <data name="Lock.Action">
+    <value xml:space="preserve">Bloquear contenido</value>
+  </data>
+  <data name="More.Text">
+    <value xml:space="preserve">más</value>
+  </data>
+  <data name="NotificationBody_Approval.Text">
+    <value xml:space="preserve">El contenido de la página en la URL indicada se ha aprobado en el estado [OLDSTATE] y se encuentra ahora en el estado [STATE].
+[URL]
+
+Comentario:
+[COMMENT]</value>
+  </data>
+  <data name="NotificationBody_CancelSubmission.Text">
+    <value xml:space="preserve">El contenido de la página en la URL indicada se ha rechazado y se encuentra ahora en el estado [STATE].
+[URL]
+
+Comentario:
+[COMMENT]</value>
+  </data>
+  <data name="NotificationBody_DefaultComment.Text">
+    <value xml:space="preserve">(No se ha proporcionado ningún comentario)</value>
+  </data>
+  <data name="NotificationBody_Publishing.Text">
+    <value xml:space="preserve">El contenido de la página en la URL indicada se ha publicado.
+[URL]
+
+Comentario:
+[COMMENT]</value>
+  </data>
+  <data name="NotificationBody_Rejection.Text">
+    <value xml:space="preserve">El contenido de la página en la URL indicada se ha rechazdo del estado [OLDSTATE] y requiere una revisión antes de que pueda ser publicado.
+[URL]
+
+Comentario:
+[COMMENT]</value>
+  </data>
+  <data name="NotificationBody_Submission.Text">
+    <value xml:space="preserve">El contenido de la página en la URL indicada se encuentra en el estado [STATE] y requiere su revisión y aprovación.
+[URL]
+
+Comentario:
+[COMMENT]</value>
+  </data>
+  <data name="NotificationSubject.Text">
+    <value xml:space="preserve">Notificación de revisión de contenidos: [ACTION]</value>
+  </data>
+  <data name="plRenderType.Help">
+    <value xml:space="preserve">Si activa esta opción, se mostrará el contenido del Sumario con un enlace "Más" para cambiar la vista entre el contenido principal y el sumario.</value>
+  </data>
+  <data name="plRenderType.Text">
+    <value xml:space="preserve">Mostrar sumario</value>
+  </data>
+  <data name="PublishContent.Action">
+    <value xml:space="preserve">Publicar</value>
+  </data>
+  <data name="RejectContent.Action">
+    <value xml:space="preserve">Rechazar</value>
+  </data>
+  <data name="Summary.Text">
+    <value xml:space="preserve">sumario</value>
+  </data>
+  <data name="Unlock.Action">
+    <value xml:space="preserve">Desbloquear contenido</value>
+  </data>
+</root>

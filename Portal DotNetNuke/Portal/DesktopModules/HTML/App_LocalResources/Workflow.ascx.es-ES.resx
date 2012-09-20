@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Active.Header">
+    <value xml:space="preserve">Activo</value>
+  </data>
+  <data name="cmdAddState.Text">
+    <value xml:space="preserve">Añadir nuevo estado</value>
+  </data>
+  <data name="cmdAddWorkflow.Text">
+    <value xml:space="preserve">Añadir nuevo flujo de trabajo</value>
+  </data>
+  <data name="ControlTitle_workflow.Text">
+    <value xml:space="preserve">Administrar flujos de trabajo</value>
+  </data>
+  <data name="Down.Text">
+    <value xml:space="preserve">Bajar</value>
+  </data>
+  <data name="dshPermissions.Text">
+    <value xml:space="preserve">Configuración de estado</value>
+  </data>
+  <data name="dshStates.Text">
+    <value xml:space="preserve">Estados</value>
+  </data>
+  <data name="dshVersions.Text">
+    <value xml:space="preserve">Historial de versiones</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value xml:space="preserve">&lt;p&gt;El m&amp;oacute;dulo Text/HTML muestra texto plano, texto enriquecido y HTML. Dispone de 5 vistas diferentes de edici&amp;oacute;n: &lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;&lt;strong&gt;Caja de Texto B&amp;aacute;sico / Texto&lt;/strong&gt;: Muestra texto b&amp;aacute;sico y etiquetas HTML. El texto introducido en una nueva linea se interpreta como un salto de linea. El estilo de texto es Normal, seg&amp;uacute;n el formato establecido en su hoja de estilo.
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Caja de Texto B&amp;aacute;sico / HTML&lt;/strong&gt;: Muestra texto b&amp;aacute;sico en formato HTML.
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Caja de Texto B&amp;aacute;sico / Raw&lt;/strong&gt;: Muestra texto b&amp;aacute;sico en formato HTML. El texto introducido en una nueva linea no se interpreta como salto de linea.
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Editor de Texto Enriquecido / HTML&lt;/strong&gt;: Permite pegar HTML desde otras fuentes.
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Editor de Texto Enriquecido / Dise&amp;ntilde;o&lt;/strong&gt;: Un procesador de texto o editor WYSIWYG (What You See is What You Get) con funcionalidades como hiperenlaces, enlaces de email, administrador de archivos, galer&amp;iacute;a de im&amp;aacute;genes, listas de puntos, corrector ortogr&amp;aacute;fico, y mucho m&amp;aacute;s.&lt;/li&gt;
+&lt;/ol&gt;
+El m&amp;oacute;dulo soporta tambi&amp;eacute;n flujos de trabajo y control de versiones. La versi&amp;oacute;n Community Edition incluye dos flujos de trabajo: Publicaci&amp;oacute;n directa y Guardar borrardores</value>
+  </data>
+  <data name="plActive.Help">
+    <value xml:space="preserve">Especifique si el estado está activo</value>
+  </data>
+  <data name="plActive.Text">
+    <value xml:space="preserve">Activo</value>
+  </data>
+  <data name="plDeleted.Help">
+    <value xml:space="preserve">Especifique si este flujo de trabajo está o no activo</value>
+  </data>
+  <data name="plDeleted.Text">
+    <value xml:space="preserve">Eliminado</value>
+  </data>
+  <data name="plDescription.Help">
+    <value xml:space="preserve">Indique una descripción para el flujo de trabajo</value>
+  </data>
+  <data name="plDescription.Text">
+    <value xml:space="preserve">Descripción</value>
+  </data>
+  <data name="plHistory.Help">
+    <value xml:space="preserve">Especificar el número máximo de versiones a conservar</value>
+  </data>
+  <data name="plHistory.Text">
+    <value xml:space="preserve">Historial</value>
+  </data>
+  <data name="plMaximumVersionHistory.Help">
+    <value xml:space="preserve">Especificar el número máximo de versiones de contenido a mantener en el histórico para un módulo (indique cero para mantener todas las veriones)</value>
+  </data>
+  <data name="plMaximumVersionHistory.Text">
+    <value xml:space="preserve">Histórico</value>
+  </data>
+  <data name="plNotify.Help">
+    <value xml:space="preserve">Especifique si el autor y los revisores deberían recibir notificaciones por email relacionados con el estado</value>
+  </data>
+  <data name="plNotify.Text">
+    <value xml:space="preserve">Notificar</value>
+  </data>
+  <data name="plPermissions.Help">
+    <value xml:space="preserve">Especifique quién puede revisar contenidos para el estado</value>
+  </data>
+  <data name="plPermissions.Text">
+    <value xml:space="preserve">Revisores</value>
+  </data>
+  <data name="plState.Help">
+    <value xml:space="preserve">Indique el nombre para el estado</value>
+  </data>
+  <data name="plState.Text">
+    <value xml:space="preserve">Estado</value>
+  </data>
+  <data name="plWorkflow1.Help">
+    <value xml:space="preserve">Seleccione el flujo de trabajo a gestionar</value>
+  </data>
+  <data name="plWorkflow1.Text">
+    <value xml:space="preserve">Flujo de Trabajo</value>
+  </data>
+  <data name="plWorkflow2.Help">
+    <value xml:space="preserve">Indique un nombre para el flujo de trabajo</value>
+  </data>
+  <data name="plWorkflow2.Text">
+    <value xml:space="preserve">Flujo de Trabajo</value>
+  </data>
+  <data name="State.Header">
+    <value xml:space="preserve">Estado</value>
+  </data>
+  <data name="StateName.Required">
+    <value xml:space="preserve">Tiene que proporcionar un nombre para este estado del flujo de trabajo.</value>
+  </data>
+  <data name="Up.Text">
+    <value xml:space="preserve">Subir</value>
+  </data>
+  <data name="WorkflowExists.Text">
+    <value xml:space="preserve">Ya existe en este sitio web un flujo de trabajo con el nombre especificado.</value>
+  </data>
+  <data name="WorkflowName.Required">
+    <value xml:space="preserve">Tiene que proporcionar un nombre para este flujo de trabajo.</value>
+  </data>
+  <data name="WorkFlowStateHelp.Text">
+    <value xml:space="preserve">En esta sección se pueden gestionar los estados de flujo de trabajo. Tenga en cuenta que una vez que un flujo de trabajo se está utilizando no se puede eliminar ninguno de los estados del flujo de trabajo asociado.También el primer y último estado de un flujo de trabajo no pueden ser eliminados.</value>
+  </data>
+</root>

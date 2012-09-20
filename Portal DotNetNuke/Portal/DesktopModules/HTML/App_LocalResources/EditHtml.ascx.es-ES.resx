@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddContent.Text">
+    <value xml:space="preserve">Añadir contenido</value>
+  </data>
+  <data name="APPROVEContentHead.Text">
+    <value xml:space="preserve">Introduzca el comentario de aprobación</value>
+  </data>
+  <data name="Approved.Header">
+    <value xml:space="preserve">Aprobado</value>
+  </data>
+  <data name="chkPublish.Text">
+    <value xml:space="preserve">¿Publicar cambios?</value>
+  </data>
+  <data name="cmdApprove.Text">
+    <value xml:space="preserve">Aprobar contenido</value>
+  </data>
+  <data name="cmdCancel.Text">
+    <value xml:space="preserve">Cancelar</value>
+  </data>
+  <data name="cmdPreview.Text">
+    <value xml:space="preserve">Previsualizar</value>
+  </data>
+  <data name="cmdPreviewCurrent.Text">
+    <value xml:space="preserve">Previsualizar contenido</value>
+  </data>
+  <data name="cmdReject.Text">
+    <value xml:space="preserve">Rechazar contenido</value>
+  </data>
+  <data name="cmdSave.Text">
+    <value xml:space="preserve">Guardar</value>
+  </data>
+  <data name="cmdSubmitComment.Text">
+    <value xml:space="preserve">Añadir comentario</value>
+  </data>
+  <data name="Comment.Header">
+    <value xml:space="preserve">Comentario</value>
+  </data>
+  <data name="Comment.Text">
+    <value xml:space="preserve">Comentario</value>
+  </data>
+  <data name="CommentRequiredMessage.Text">
+    <value xml:space="preserve">Tiene que entrar un comentario</value>
+  </data>
+  <data name="ContentLocked.Error">
+    <value xml:space="preserve">Este contenido esta bloqueado por el usuario [USER]. Ud. no puede guardar sus cambios hasta que el bloqueo se libere.</value>
+  </data>
+  <data name="ContentRecall.Cofirm">
+    <value xml:space="preserve">Al guardar el contenido en este estado ([STATE]) lo devolverá al estado [NEWSTATE] del flujo de trabajo actual. ¿Está seguro que desea continuar?</value>
+  </data>
+  <data name="ContentState.Error">
+    <value xml:space="preserve">Este contenido se encuentra en el estado [STATE] y está bloqueado por el usuario [USER]. Ud. no puede guardar sus cambios hasta que el contenido sea devuelto al estado de borrador y el bloqueo se libere.</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value xml:space="preserve">Editar contenido</value>
+  </data>
+  <data name="Date.Header">
+    <value xml:space="preserve">Fecha</value>
+  </data>
+  <data name="Delete.Text">
+    <value xml:space="preserve">Eliminar esta versión</value>
+  </data>
+  <data name="DeleteVersion.Confirm">
+    <value xml:space="preserve">¿Está seguro que desea eliminar definitivamente la versión [VERSION] ([STATE]) que fue creada el [DATECREATED] por [USERNAME] ?</value>
+  </data>
+  <data name="Direct Publish.Text">
+    <value xml:space="preserve">Publicación directa</value>
+  </data>
+  <data name="Draft.Text">
+    <value xml:space="preserve">Borrador</value>
+  </data>
+  <data name="dshCurrentContent.Text">
+    <value xml:space="preserve">Contenido actual</value>
+  </data>
+  <data name="dshHistory.Text">
+    <value xml:space="preserve">Detalles del flujo de trabajo</value>
+  </data>
+  <data name="dshMainContent.Text">
+    <value xml:space="preserve">Contenido principal</value>
+  </data>
+  <data name="dshMaster.Text">
+    <value xml:space="preserve">Versión en el idioma por omisión</value>
+  </data>
+  <data name="dshPreview.Text">
+    <value xml:space="preserve">Previsualizar</value>
+  </data>
+  <data name="dshSummary.Text">
+    <value xml:space="preserve">Sumario</value>
+  </data>
+  <data name="dshVersions.Text">
+    <value xml:space="preserve">Control de versiones</value>
+  </data>
+  <data name="Edit.Text">
+    <value xml:space="preserve">Activar esta versión</value>
+  </data>
+  <data name="EditPreviewState.Text">
+    <value xml:space="preserve">Editar previsualización</value>
+  </data>
+  <data name="False.Text">
+    <value xml:space="preserve">Falso</value>
+  </data>
+  <data name="Item.Text">
+    <value xml:space="preserve">Previsualizar contenido</value>
+  </data>
+  <data name="lblLockTransfer.Text">
+    <value xml:space="preserve">&lt;br /&gt;Si el contenido continua bloqueado, el bloqueo se le trasferirá a Ud.</value>
+  </data>
+  <data name="lblPreviewWorkflowState.Text">
+    <value xml:space="preserve">Estado</value>
+  </data>
+  <data name="lblSaveWithoutPublish.Text">
+    <value xml:space="preserve">&lt;br /&gt;Si guarda sin publicar, el contenido pasará al estado de borrador.</value>
+  </data>
+  <data name="LockContent.Action">
+    <value xml:space="preserve">¿Bloquear contenido?</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value xml:space="preserve">&lt;p&gt;El m&amp;oacute;dulo Text/HTML muestra texto plano, texto enriquecido y HTML. Dispone de 5 vistas diferentes de edici&amp;oacute;n: &lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;&lt;strong&gt;Caja de Texto B&amp;aacute;sico / Texto&lt;/strong&gt;: Muestra texto b&amp;aacute;sico y etiquetas HTML. El texto introducido en una nueva linea se interpreta como un salto de linea. El estilo de texto es Normal, seg&amp;uacute;n el formato establecido en su hoja de estilo.
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Caja de Texto B&amp;aacute;sico / HTML&lt;/strong&gt;: Muestra texto b&amp;aacute;sico en formato HTML.
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Caja de Texto B&amp;aacute;sico / Raw&lt;/strong&gt;: Muestra texto b&amp;aacute;sico en formato HTML. El texto introducido en una nueva linea no se interpreta como salto de linea.
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Editor de Texto Enriquecido / HTML&lt;/strong&gt;: Permite pegar HTML desde otras fuentes.
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Editor de Texto Enriquecido / Dise&amp;ntilde;o&lt;/strong&gt;: Un procesador de texto o editor WYSIWYG (What You See is What You Get) con funcionalidades como hiperenlaces, enlaces de email, administrador de archivos, galer&amp;iacute;a de im&amp;aacute;genes, listas de puntos, corrector ortogr&amp;aacute;fico, y mucho m&amp;aacute;s.&lt;/li&gt;
+&lt;/ol&gt;</value>
+  </data>
+  <data name="NoHistory.Text">
+    <value xml:space="preserve">No hay ninguna versión en el histórico para este contenido.</value>
+  </data>
+  <data name="NoVersions.Text">
+    <value xml:space="preserve">No hay ninguna versión en el histórico para este contenido.</value>
+  </data>
+  <data name="plActionOnSave.Help">
+    <value xml:space="preserve">La acción que el sistema debe ejecutar, además de guardar el contenido, cuando se pulsa en Guardar.</value>
+  </data>
+  <data name="plActionOnSave.Text">
+    <value xml:space="preserve">Guardar</value>
+  </data>
+  <data name="plCurrentLockStatus.Help">
+    <value xml:space="preserve">Indica si el contenido del módulo está bloqueado para su edición, y en este caso, el nombre del usuario que lo tenga bloqueado.</value>
+  </data>
+  <data name="plCurrentLockStatus.Text">
+    <value xml:space="preserve">Estado de bloqueo</value>
+  </data>
+  <data name="plCurrentWorkflowInUse.Help">
+    <value xml:space="preserve">Flujo de trabajo que está siendo utilizado actualmente.</value>
+  </data>
+  <data name="plCurrentWorkflowInUse.Text">
+    <value xml:space="preserve">Flujo de trabajo en uso</value>
+  </data>
+  <data name="plCurrentWorkflowState.Help">
+    <value xml:space="preserve">Estado del flujo de trabajo en uso por el módulo</value>
+  </data>
+  <data name="plCurrentWorkflowState.Text">
+    <value xml:space="preserve">Estado del flujo de trabajo</value>
+  </data>
+  <data name="plCurrentWorkVersion.Help">
+    <value xml:space="preserve">Muestra el número de versión del contenido</value>
+  </data>
+  <data name="plCurrentWorkVersion.Text">
+    <value xml:space="preserve">Versión</value>
+  </data>
+  <data name="plMaxVersions.Help">
+    <value xml:space="preserve">Número máximo de versiones que se guardarán.</value>
+  </data>
+  <data name="plMaxVersions.Text">
+    <value xml:space="preserve">Número máximo de versiones</value>
+  </data>
+  <data name="plPreviewVersion.Help">
+    <value xml:space="preserve">Mostrar el número de versión del contenido</value>
+  </data>
+  <data name="plPreviewVersion.Text">
+    <value xml:space="preserve">Versión</value>
+  </data>
+  <data name="plPreviewWorkflowInUse.Help">
+    <value xml:space="preserve">Nombre de la configuración del flujo de trabajo que el módulo está usando.</value>
+  </data>
+  <data name="plPreviewWorkflowInUse.Text">
+    <value xml:space="preserve">Flujo de trabajo utilizado</value>
+  </data>
+  <data name="plPreviewWorkflowState.Help">
+    <value xml:space="preserve">Estado del flujo de trabajo del contenido visualizado</value>
+  </data>
+  <data name="plPreviewWorkflowState.Text">
+    <value xml:space="preserve">Estado del flujo de trabajo</value>
+  </data>
+  <data name="plPublish.Help">
+    <value xml:space="preserve">Indica si el contenido está listo para su publicación</value>
+  </data>
+  <data name="plPublish.Text">
+    <value xml:space="preserve">Publicar</value>
+  </data>
+  <data name="plWorkflowState.Help">
+    <value xml:space="preserve">Mostrar el estado actual del contenido</value>
+  </data>
+  <data name="Published.Text">
+    <value xml:space="preserve">Publicado</value>
+  </data>
+  <data name="Ready For Review.Text">
+    <value xml:space="preserve">Listo para revisión</value>
+  </data>
+  <data name="REJECTContentHead.Text">
+    <value xml:space="preserve">Introduzca los motivos del rechazo</value>
+  </data>
+  <data name="Save Draft.Text">
+    <value xml:space="preserve">Guardar borrador</value>
+  </data>
+  <data name="State.Header">
+    <value xml:space="preserve">Estado</value>
+  </data>
+  <data name="SUBMITContent.Text">
+    <value xml:space="preserve">Enviar</value>
+  </data>
+  <data name="SUBMITContentHead.Text">
+    <value xml:space="preserve">Entrar comentario de envío</value>
+  </data>
+  <data name="SummaryHelp.Text">
+    <value xml:space="preserve">&lt;p&gt;'&lt;b&gt;Sumario&lt;/b&gt;': se recomienda el uso de la versión abreviada del contenido para sitios móbiles donde se puede mostrar una versión simplificada del contenido en lugar de la versión completa. Si informa este contenido, el módulo cargará el  '&lt;b&gt;Sumario&lt;/b&gt;' como contenido principal y mostrará un enlace para cambiar entre '&lt;b&gt;Sumario&lt;/b&gt;' y '&lt;b&gt;Contenido principal&lt;/b&gt;'.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Atención&lt;/b&gt;: para utilizar esta funcionalidad tiene que entrar contenido en los dos campos, '&lt;b&gt;Sumario&lt;/b&gt;' y '&lt;b&gt;Contenido principal&lt;/b&gt;'.&lt;/p&gt;</value>
+  </data>
+  <data name="True.Text">
+    <value xml:space="preserve">Verdadero</value>
+  </data>
+  <data name="UnlockContent.Action">
+    <value xml:space="preserve">¿Desbloquear contenido?</value>
+  </data>
+  <data name="User.Header">
+    <value xml:space="preserve">Usuario</value>
+  </data>
+  <data name="Version.Header">
+    <value xml:space="preserve">Versión</value>
+  </data>
+  <data name="VersionsPreview.Text">
+    <value xml:space="preserve">Previsualizar</value>
+  </data>
+  <data name="VersionsRemove.Text">
+    <value xml:space="preserve">Eliminar</value>
+  </data>
+  <data name="VersionsRollback.Text">
+    <value xml:space="preserve">Activar versión</value>
+  </data>
+</root>
