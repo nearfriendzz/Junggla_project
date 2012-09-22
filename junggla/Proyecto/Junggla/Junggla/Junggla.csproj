@@ -56,6 +56,7 @@
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Contacts.aspx" />
+    <Content Include="home.htm" />
     <Content Include="Images\cabecera\blanco-junggla.png" />
     <Content Include="Images\cabecera\botoEmpresa.png" />
     <Content Include="Images\cabecera\botonLogin.png" />
@@ -69,6 +70,7 @@
     <Content Include="Images\cabecera\logoazul-ojoblaco.png" />
     <Content Include="Images\cabecera\logoblanco.png" />
     <Content Include="Images\cabecera\logoblancoEvenzon.png" />
+    <Content Include="Images\home.png" />
     <Content Include="Login.aspx" />
     <Content Include="PopupInvitacion.aspx" />
     <Content Include="RegisterCompany.aspx" />
